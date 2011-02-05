@@ -273,7 +273,7 @@
                     }
                     $img.show();
                })
-               .css('border-width','0px')
+               .css('border','1px solid #000')
                .hide();
                $a = $("<a/>")
                    .attr("href",item.content.src)
