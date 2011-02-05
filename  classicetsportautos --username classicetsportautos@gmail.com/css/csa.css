@@ -1,0 +1,302 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+/*Onglets*/
+h4{
+	font-size:14px;
+}
+
+/*Titres paragraphes*/
+h1{
+	font-size:15px;
+	margin-bottom:10px;
+}
+
+/*Titres pied de page*/
+h2{
+	font-size:14px;
+	margin-bottom:10px;
+}
+
+h3{
+	font-size:12px;
+}
+
+a{
+	color:#000;
+	text-decoration:none;
+}
+a:hover{
+	color:#043;
+	text-decoration:underline;
+}
+
+img{
+	margin-bottom:20px;
+}
+
+p{
+	/*margin-top:10px;*/
+	text-align:justify;
+}
+
+iframe{
+	border:1px solid #000;
+}
+/*****en tete page*****/
+
+.logo{
+	float:left;
+	margin-top:10px;
+	width:110px;
+	height:110px;
+	background: url(../img/logo.gif) no-repeat;
+}
+ul.menu{
+	float:left;
+	display:block;
+	padding-top:105px;
+	padding-bottom:15px;
+	width:750px;
+	text-align:right;
+
+	background:#C25;
+	background: url(../img/headcar.gif) no-repeat;
+}
+
+ul.menu li{
+	display:inline;
+	/*background:#CF0;*/
+}
+ul.menu li a,
+ul.menu li a.current
+{
+	padding:3px 10px;
+}
+
+ul.menu li a:hover{
+	color:#043;
+	text-decoration:none;
+	border-bottom:3px solid #043;
+}
+
+ul.menu li a.current{
+	background:#043;
+	color:#FFF;
+
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+}
+
+ul.menu li a:hover .current{
+	bborder:none;
+}
+
+/***** espace promo****/
+.espacepromo{
+	width:858px;
+	height:250px;
+	background:#000;
+	margin-bottom:20px;
+	border:1px solid #000;
+}
+
+.espacepromo2{
+	border-bottom:2px solid #000;
+	margin-bottom:30px;
+}
+
+.espacepromo3{
+	width:558px;
+	height:100px;
+	background:#000;
+	margin-bottom:20px;
+	border:1px solid #000;
+}
+
+/*** corps de page ***/
+.col260 img,
+.col260_3 img,
+.album-cover img,
+.vente-titre img,
+.vente-col2 img
+{
+	overflow-x:hidden;
+	border:1px solid #000;
+	width:258px;
+}
+.col260 img{
+
+}
+img.pict,
+img.pict2
+{
+	float:left;
+	width:78px;
+	height:78px;
+	margin:0px 10px 10px 0;
+	background:#F60;
+}
+img.pict2{
+	margin-right:0;
+}
+
+img.icone{
+	width:20px;
+	height:20px;
+	margin:0px 10px 10px 0;
+}
+
+.plus{
+	float:right;
+	margin-top:10px;
+}
+
+.car{
+	background: url(../img/footcar_xk_green.jpg) top left no-repeat;
+	width:960px;
+	margin:0 auto;
+	height:140px;
+}
+
+.vente .col560{
+	background:#FFF;
+	width:540px;
+}
+
+.col560 h1{
+	color:#000;
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.vente h2,
+.achats h2{
+	font-weight: bold
+}
+
+.col560 .vente-titre{
+	overflow-x:hidden;
+	float: left;
+	width:320px;
+}
+
+.col560 .vente-col1{
+	float: left;
+	overflow-x:hidden;
+	/*width:240px;*/
+	margin:26px 0px 0px 0px;
+}
+
+.col560 .vente-col2{
+	float:inherit;
+	/*width:280px;*/
+	margin:0px 0px 25px 20px;*/
+}
+
+.achats .col260_3{
+	/*background:#043;*/
+}
+.achats .col260_3 h1{
+	/*color:#CCC;*/
+	color:#000;
+	font-weight: bold;
+	font-size: 13px;
+}
+.achats .col260_3 p{
+	color:#000;
+}
+.achats .col260_3 img{
+	border:1px solid #FFF;
+}
+.achats .col260_3 a{
+	color:#000;
+}
+.achats .col260_3 a:hover{
+	color:#FFF;
+}
+
+.pieddepage{
+	color:#999;
+	background:#000;
+	padding:0 50px 40px 50px;
+	margin-bottom:40px;
+}
+
+.mentions{
+	color:#666;
+	font-size:11px;
+	margin:50px auto 0px auto;
+	padding-top:50px;
+	padding-bottom:20px;
+	border-top:1px solid #043;
+	display:bloc;
+	text-align:center;
+	background: url(../img/logo2.gif) bottom right no-repeat;
+}
+
+.galerie img{
+	width:258px;
+	height:150px;
+}
+
+.galerie a img{
+	float:left;
+	z-index:1;
+}
+.galerie a h3{
+	float:left;
+	display:none;
+	z-index:2;
+	margin-top:-60px;
+	padding:5px;
+	color:#FFF;
+	width:250px;
+	height:30px;
+	background: url(../img/bkglegende.png) repeat;
+}
+
+.galerie a:hover h3{
+	display:block;
+}
+
+.pieddepage h2{
+	color:#FFF;
+}
+.pieddepage b,
+.pieddepage a
+{
+	color:#063;/*original #043*/
+}
+
+.pieddepage a:hover{
+	text-decoration:none;
+	color:#FFF;
+}
+
+.background{
+	background: url(../img/background.jpg) top left no-repeat;
+}
+
+/**** classes ****/
+.clearit{
+	clear:both;
+	height:0px;
+}
+.citation{
+	text-align:justify;
+	font-style:italic;
+	padding:20px;
+	margin:10px auto;
+	font-family:"Times New Roman", Times, serif;
+	font-size:18px;
+}
+
+.citation cite{
+	font-size:12px;
+	display:block;
+	margin-top:10px;
+	text-align:right;
+}

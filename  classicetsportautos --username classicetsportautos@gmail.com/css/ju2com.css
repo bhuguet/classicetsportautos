@@ -1,0 +1,13 @@
+#ju2com_inside{
+	/*font-family:"Century Gothic";*/
+	font-size:10px;
+	text-align:left;
+	}
+#ju2com_inside a{
+	color:#333;
+	text-decoration:none;
+}
+
+#ju2com_inside a:hover .vert{color:#0C3}
+#ju2com_inside a:hover .orange{color:#F60}
+#ju2com_inside a:hover .violet{color:#C09}
