@@ -12,6 +12,8 @@ h4{
 h1{
 	font-size:15px;
 	margin-bottom:10px;
+	color:#000;
+	font-weight:bold;
 }
 
 /*Titres pied de page*/
@@ -83,7 +85,7 @@ ul.menu li a:hover{
 }
 
 ul.menu li a.current{
-	background:#043;
+	background:#073737;
 	color:#FFF;
 
 	-moz-border-radius:8px;
@@ -285,6 +287,16 @@ img.icone{
 	clear:both;
 	height:0px;
 }
+
+.overview{
+	text-align:center;
+	font-style:italic;
+	padding:20px;
+	margin:10px auto;
+	font-size:18px;
+	background-color:light grey;
+}
+
 .citation{
 	text-align:justify;
 	font-style:italic;
