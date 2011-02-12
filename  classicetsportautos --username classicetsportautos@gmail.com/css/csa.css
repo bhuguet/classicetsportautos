@@ -85,7 +85,7 @@ ul.menu li a:hover{
 }
 
 ul.menu li a.current{
-	background:#073737;
+	background:#043;
 	color:#FFF;
 
 	-moz-border-radius:8px;
