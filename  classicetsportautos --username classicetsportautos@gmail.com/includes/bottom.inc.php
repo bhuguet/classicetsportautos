@@ -13,9 +13,7 @@
     <div class="col260">
         <h2>Evènements</h2>
         <p>
-        <li><b>Joyeuses Fêtes et Meilleurs voeux pour 2012 !</b> - Rendez-vous au garage <b style="color: red">Samedi 7 Janvier à partir de 10h30</b></li>
-        <li><b>22 Octobre</b> - C&SA fête son <a href="http://www.auto-pedia.fr/un-an-classic-sport-auto/">1er anniversaire</a> autour d'un verre</li>
-        <li><b>1er Octobre</b> - spécial 50 ans de la Type E à Morges</li>
+        <li><b style="color: red">Joyeuses Fêtes et Meilleurs voeux pour 2012 !</b> - Rendez-vous au garage <b>Samedi 7 Janvier à partir de 10h30</b></li>
         <li>Retrouvez C&SA sur <a href="http://www.auto-pedia.fr/"><b>auto-pedia.fr</b></a></li>
         </p>
     </div>
