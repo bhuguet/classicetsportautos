@@ -7,7 +7,7 @@
 <meta name="description" content="Vendez ou recherchez votre voiture ancienne gr&acirc;ce &agrave; Classic et Sport Autos">
 <meta name="keywords" content="vente, achat, ancienne, annonce">
 
-<title>Classic & Sport Autos - Annonces pour Achat ou Ventes</title>
+<title>Classic & Sport Autos - Annonces pour l'Achat ou la Vente de voitures anciennes</title>
 <link rel="shortcut icon" href="images/csa.ico">
 <link rel="stylesheet" type="text/css" media="screen" href="css/init.css">
 <link rel="stylesheet" type="text/css" media="screen" href="css/layout.css">

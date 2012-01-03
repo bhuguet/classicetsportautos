@@ -7,7 +7,7 @@
 <meta name="description" content="Nos prestations. Classic et Sport Autos, histoire d'une passion.">
 <meta name="keywords" content="prestations, histoire, huguet">
 
-<title>Classic & Sport Autos - Nos prestations</title>
+<title>Classic & Sport Autos - Nos prestations et histoire d'une passion</title>
 <link rel="shortcut icon" href="images/csa.ico">
 <link rel="stylesheet" type="text/css" media="screen" href="css/init.css">
 <link rel="stylesheet" type="text/css" media="screen" href="css/layout.css">
