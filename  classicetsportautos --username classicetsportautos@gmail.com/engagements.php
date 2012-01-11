@@ -62,8 +62,8 @@
 					Mon ambition est de satisfaire mes clients par un service de qualit&eacute; &agrave; des prix raisonnables et dans une ambiance conviviale.
 					<br/>
 					<div class="citation">
-						"Mes clients et amis en t&eacute;moignent, les voitures que j'entretiens et r&eacute;pare
-						le sont avec le m&ecirc;me soin que pour mes propres voitures"
+						"Mes clients et amis en témoignent, j'entretiens et répare leurs voitures avec le même soin 
+                                                que mes propres voitures"
 						<cite>Jean-Fran&ccedil;ois Huguet</cite>
 					</div>
 				</p>
