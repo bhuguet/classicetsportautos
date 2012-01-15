@@ -3,3 +3,5 @@ AddType x-mapp-php5 .php .php3 .php4 .htm .html
 
 .htaccess avec easyPhp
 AddType application/x-httpd-php .php .php3 .php4 .htm .html
+
+##bon post sur le sujet: http://www.besthostratings.com/articles/php-in-html-files.html
