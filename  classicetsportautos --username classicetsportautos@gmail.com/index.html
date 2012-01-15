@@ -2,9 +2,7 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="Content-Language" content="fr">
-<meta name="robots" content="index, follow">
+<?php include 'includes/metas.inc.php'; ?>
 
 <meta name="description" content="Classic & Sport Autos entretien et la r&eacute;paration de voitures de collection
 					avec sp&eacute;cialit&eacute; en voitures anglaises, Jaguar, Lotus, Austin Healey, MG, Triumph...
@@ -20,136 +18,7 @@
 <link rel="stylesheet" type="text/css" media="screen" href="css/ju2com.css">
 <link rel="stylesheet" type="text/css" media="print" href="css/csa.css">
 
-<script type="text/javascript" src="jquery/js/jquery-1.3.1.min.js"></script>
-<script type="text/javascript">
-
-$(document).ready(function() {
-
-	//Execute the slideShow, set 4 seconds for each images
-	slideShow(6000);
-
-});
-
-function slideShow(speed) {
-
-
-	//append a LI item to the UL list for displaying caption
-	$('ul.slideshow').append('<li id="slideshow-caption" class="caption"><div class="slideshow-caption-container"><h3></h3><p></p></div></li>');
-
-	//Set the opacity of all images to 0
-	$('ul.slideshow li').css({opacity: 0.0});
-
-	//Get the first image and display it (set it to full opacity)
-	$('ul.slideshow li:first').css({opacity: 1.0});
-
-	//Get the caption of the first image from REL attribute and display it
-	$('#slideshow-caption h3').html($('ul.slideshow a:first').find('img').attr('title'));
-	$('#slideshow-caption p').html($('ul.slideshow a:first').find('img').attr('alt'));
-
-	//Display the caption
-	$('#slideshow-caption').css({opacity: 0.7, bottom:0});
-
-	//Call the gallery function to run the slideshow
-	var timer = setInterval('gallery()',speed);
-
-	//pause the slideshow on mouse over
-	$('ul.slideshow').hover(
-		function () {
-			clearInterval(timer);
-		},
-		function () {
-			timer = setInterval('gallery()',speed);
-		}
-	);
-
-}
-
-function gallery() {
-
-
-	//if no IMGs have the show class, grab the first image
-	var current = ($('ul.slideshow li.show')?  $('ul.slideshow li.show') : $('#ul.slideshow li:first'));
-
-	//Get next image, if it reached the end of the slideshow, rotate it back to the first image
-	var next = ((current.next().length) ? ((current.next().attr('id') == 'slideshow-caption')? $('ul.slideshow li:first') :current.next()) : $('ul.slideshow li:first'));
-
-	//Get next image caption
-	var title = next.find('img').attr('title');
-	var desc = next.find('img').attr('alt');
-
-	//Set the fade in effect for the next image, show class has higher z-index
-	next.css({opacity: 0.0}).addClass('show').animate({opacity: 1.0}, 1000);
-
-	//Hide the caption first, and then set and display the caption
-	$('#slideshow-caption').slideToggle(300, function () {
-		$('#slideshow-caption h3').html(title);
-		$('#slideshow-caption p').html(desc);
-		$('#slideshow-caption').slideToggle(500);
-	});
-
-	//Hide the current image
-	current.animate({opacity: 0.0}, 1000).removeClass('show');
-
-}
-</script>
-
-
-<link rel="stylesheet" type="text/css" media="screen" href="jquery/css/slideshow.css">
-
-	<script>
-		!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
-	</script>
-	<script type="text/javascript" src="jquery/jquery.fancybox-1.3.4/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-	<script type="text/javascript" src="jquery/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-	<link rel="stylesheet" type="text/css" href="jquery/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
-
-	<script type="text/javascript">
-		$(document).ready(function() {
-			/*
-			*   Examples - images
-			*/
-
-			$("a[rel=example_group]").fancybox({
-				'transitionIn'		: 'none',
-				'transitionOut'		: 'none',
-				'titlePosition' 	: 'over',
-				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
-					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
-				}
-			});
-
-			$("a[rel=example_group2]").fancybox({
-				'transitionIn'		: 'none',
-				'transitionOut'		: 'none',
-				'titlePosition' 	: 'over',
-				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
-					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
-				}
-			});
-
-			$("a#example3").fancybox({
-				'transitionIn'	: 'none',
-				'transitionOut'	: 'none'
-			});
-
-		});
-	</script>
-
-<script type="text/javascript">
-//Google Analytics
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-20953337-3']);
-  _gaq.push(['_setDomainName', 'none']);
-  _gaq.push(['_setAllowLinker', true]);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
+<?php include 'includes/index_head.inc.php'; ?>
 </head>
 
 <body>
@@ -157,16 +26,10 @@ function gallery() {
 	<div class="container">
 		<div class="wrapper">
 			<div class="head">
-				<div class="logo"></div>
-				<ul class="menu">
-					<li><a class="current" href="index.html">Accueil</a></li>
-					<li><a href="atelier.html">Atelier</a></li>
-					<li><a href="engagements.html">Nos engagements</a></li>
-					<li><a href="achatsventes.html">Achats/Ventes</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-				<div class="clearit"></div>
-				<div class="espacepromo">
+                                <?php $highlight = 'accueil'; ?>
+                                <?php include 'includes/top.inc.php'; ?>
+
+                            <div class="espacepromo">
 
 				<ul class="slideshow">
 				    <li class="show"><a href="#"><img src="img/bandeauGarage.jpg" width="858" height="250" title="Atelier" alt=""/></a></li>
@@ -235,53 +98,7 @@ function gallery() {
 
 			<div class="clearit"></div>
 		</div>
-		<div class="car"></div>
-		<div class="pieddepage">
-			<div class="col260">
-				<h2>Le site</h2>
-				<ul>
-					<li><a href="index.html">Accueil</a></li>
-					<li><a href="atelier.html">Atelier</a></li>
-					<li><a href="engagements.html">Nos engagements</a></li>
-					<li><a href="achatsventes.html">Achats/Ventes</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-			<div class="col260">
-				<h2>Evènements</h2>
-				<p>
-                                <li><b style="color: red">Joyeuses Fêtes et Meilleurs voeux pour 2012 !</b> - Rendez-vous au garage <b>Samedi 7 Janvier à partir de 10h30</b></li>
-                                <li>Retrouvez C&SA sur <a href="http://www.auto-pedia.fr/"><b>auto-pedia.fr</b></a></li>
-				</p>
-			</div>
-			<div class="col260_3">
-				<h2>Horaires d'ouverture</h2>
-				<ul>
-					<li>Du Lundi au Vendredi</li>
-					<li>de 9h00 &agrave; 12h00</li>
-					<li>et de 14h00 &agrave; 18h30</li>
-				</ul>
-				<br/>
-				<h2>Adresse</h2>
-				<ul>
-					<li>Classic et Sport Autos</li>
-					<li>20 RUE DU BEAL</li>
-					<li>38400 Saint-martin-d'h&egrave;res</li>
-					<li><b>T&eacute;l</b> : +33 (0)4.57.93.38.57</li>
-				</ul>
-			</div>
-			<div class="clearit"></div>
-			<div class ="mentions">
-				<b>Classic & Sport Autos</b> - 20 Rue du B&eacute;al - 38400 Saint-martin-d'h&egrave;res
-				<br/>
-				T&eacute;l&eacute;phone +33 (0)4.57.93.38.57 - T&eacute;l&eacute;copie +33 (0)4.57.93.38.57 - <a href="mailto:contact@classicetsportautos.fr">contact@classicetsportautos.fr</a>
-				<br/>
-				Copyright ©2011 Classic & Sport Autos, Tous droits réservés.
-				<br/>
-				Num&eacute;ro siren : 527 671 515
-			</div>
-			<script type="text/javascript" src="http://www.ju2com.fr/js/signatureFdNr.js"></script>
-		</div>
+                <?php include 'includes/bottom.inc.php'; ?>
 	</div><!--fin container-->
 	</div><!--fin background-->
 </body>

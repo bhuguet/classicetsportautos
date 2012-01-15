@@ -2,12 +2,10 @@
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="Content-Language" content="fr">
-<meta name="robots" content="index, follow">
+<?php include 'includes/metas.inc.php'; ?>
 
 <meta name="description" content="Contactez nous et venez nous rendre visite &agrave; Classic & Sport Autos">
-<meta name="keywords" content="contact, adresse, plan, annuaires, liens">
+<meta name="keywords" content="contact, adresse, plan, accès, annuaires, liens, coordonnées">
 
 <title>Classic & Sport Autos - Plan d'accès et Coordonnées</title>
 <link rel="shortcut icon" href="images/csa.ico">
@@ -17,21 +15,8 @@
 <link rel="stylesheet" type="text/css" media="screen" href="css/ju2com.css">
 <link rel="stylesheet" type="text/css" media="print" href="css/csa.css">
 
-<script type="text/javascript">
-//Google Analytics
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-20953337-3']);
-  _gaq.push(['_setDomainName', 'none']);
-  _gaq.push(['_setAllowLinker', true]);
-  _gaq.push(['_trackPageview']);
+<?php include 'includes/googleAnalytics.inc.php'; ?>
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
 </head>
 
 <body>
@@ -39,15 +24,8 @@
 	<div class="container">
 		<div class="wrapper">
 			<div class="head">
-				<div class="logo"></div>
-				<ul class="menu">
-					<li><a href="index.html">Accueil</a></li>
-					<li><a href="atelier.html">Atelier</a></li>
-					<li><a href="engagements.html">Nos engagements</a></li>
-					<li><a href="achatsventes.html">Achats/Ventes</a></li>
-					<li><a class="current" href="contact.html">Contact</a></li>
-				</ul>
-				<div class="clearit"></div>
+                                <?php $highlight = 'contact'; ?>
+                                <?php include 'includes/top.inc.php'; ?>                            
 				<div class="espacepromo2"></div>
 			</div>
 
@@ -84,54 +62,9 @@
 <br/><a href="http://www.gtliens.com/" target="_blank"><img src="http://www.gtliens.com/images/gtliens_annuaire-auto.gif" alt="Annuaire et moteur de recherche automobile" width="88" height="31" border="0"></a>
 <br/><a href="http://gazoline.net"><img src="http://gazoline.net/annuaire/images/gazolineref.gif" width="88" height="31" border="0"></a>
 <br/><a href="http://www.automobile-sportive.com"><img src="http://www.automobile-sportive.com/images/logo240.png" width="88" height="31" border="0"></img></a>
-		</div>
-		<div class="car"></div>
-		<div class="pieddepage">
-			<div class="col260">
-				<h2>Le site</h2>
-				<ul>
-					<li><a href="index.html">Accueil</a></li>
-					<li><a href="atelier.html">Atelier</a></li>
-					<li><a href="engagements.html">Nos engagements</a></li>
-					<li><a href="achatsventes.html">Achats/Ventes</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-			<div class="col260">
-				<h2>Evènements</h2>
-				<p>
-                                <li><b style="color: red">Joyeuses Fêtes et Meilleurs voeux pour 2012 !</b> - Rendez-vous au garage <b>Samedi 7 Janvier à partir de 10h30</b></li>
-                                <li>Retrouvez C&SA sur <a href="http://www.auto-pedia.fr/"><b>auto-pedia.fr</b></a></li>
-				</p>
-			</div>
-			<div class="col260_3">
-				<h2>Horaires d'ouverture</h2>
-				<ul>
-					<li>Du Lundi au Vendredi</li>
-					<li>de 9h00 &agrave; 12h00</li>
-					<li>et de 14h00 &agrave; 18h30</li>
-				</ul>
-				<br/>
-				<h2>Adresse</h2>
-				<ul>
-					<li>Classic et Sport Autos</li>
-					<li>20 RUE DU BEAL</li>
-					<li>38400 Saint-martin-d'h&egrave;res</li>
-					<li><b>T&eacute;l</b> : +33 (0)4.57.93.38.57</li>
-				</ul>
-			</div>
-			<div class="clearit"></div>
-			<div class ="mentions">
-				<b>Classic & Sport Autos</b> - 20 Rue du B&eacute;al - 38400 Saint-martin-d'h&egrave;res
-				<br/>
-				T&eacute;l&eacute;phone +33 (0)4.57.93.38.57 - T&eacute;l&eacute;copie +33 (0)4.57.93.38.57 - <a href="mailto:contact@classicetsportautos.fr">contact@classicetsportautos.fr</a>
-				<br/>
-				Copyright ©2011 Classic & Sport Autos, Tous droits réservés.
-				<br/>
-				Num&eacute;ro siren : 527 671 515
-			</div>
-			<script type="text/javascript" src="http://www.ju2com.fr/js/signatureFdNr.js"></script>
-		</div>
+
+                </div>
+                <?php include 'includes/bottom.inc.php'; ?>
 	</div><!--fin container-->
 	</div><!--fin background-->
 </body>
