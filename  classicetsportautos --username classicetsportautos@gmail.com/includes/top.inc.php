@@ -30,10 +30,10 @@
     
     
     ?>
-    <li><a <?php echo $hAccueil; ?> href="index.php">Accueil</a></li>
-    <li><a <?php echo $hAtelier; ?> href="atelier.php">Atelier</a></li>
-    <li><a <?php echo $hEngagements; ?> href="engagements.php">Nos engagements</a></li>
-    <li><a <?php echo $hAchatsVentes; ?> href="achatsventes.php">Achats/Ventes</a></li>
-    <li><a <?php echo $hContact; ?> href="contact.php">Contact</a></li>
+    <li><a <?php echo $hAccueil; ?> href="index.html">Accueil</a></li>
+    <li><a <?php echo $hAtelier; ?> href="atelier.html">Atelier</a></li>
+    <li><a <?php echo $hEngagements; ?> href="engagements.html">Nos engagements</a></li>
+    <li><a <?php echo $hAchatsVentes; ?> href="achatsventes.html">Achats/Ventes</a></li>
+    <li><a <?php echo $hContact; ?> href="contact.html">Contact</a></li>
 </ul>
 <div class="clearit"></div>
