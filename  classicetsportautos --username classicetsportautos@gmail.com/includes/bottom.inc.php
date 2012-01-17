@@ -13,6 +13,7 @@
     <div class="col260">
         <h2>Evènements</h2>
         <p>
+        <li>21 et 22 Janvier 2012: <a href="http://boursedevif.free.fr/"><b>Bourse de VIF</b></a> - Pièces Autos & Motos anciennes</li>
         <li><b style="color: red">Joyeuses Fêtes et Meilleurs voeux pour 2012 !</b> - Rendez-vous au garage <b>Samedi 7 Janvier à partir de 10h30</b></li>
         <li>Retrouvez C&SA sur <a href="http://www.auto-pedia.fr/"><b>auto-pedia.fr</b></a></li>
         </p>
