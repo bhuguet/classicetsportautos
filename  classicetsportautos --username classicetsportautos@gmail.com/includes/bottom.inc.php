@@ -13,7 +13,7 @@
     <div class="col260">
         <h2>Evènements</h2>
         <p>
-        <li><a href="http://www.passionautomobile.com/2012/uriage-cabriolet-classic-2012-4902.html">Uriage Cabriolet Classic 2012</a> - Dimanche 13 Mai 2012</li>
+        <li><a href="http://www.auto-pedia.fr/uriage-cabriolet-classic/">Uriage Cabriolet Classic 2012</a> - Dimanche 13 Mai 2012</li>
         <li><a href="http://www.auto-pedia.fr/vag-wintercab-2012/">Winter CAB 2012</a> - Samedi 31 Mars 2012 </li>
         <li>Retrouvez C&SA sur <a href="http://www.auto-pedia.fr/"><b>auto-pedia.fr</b></a></li>
         </p>
