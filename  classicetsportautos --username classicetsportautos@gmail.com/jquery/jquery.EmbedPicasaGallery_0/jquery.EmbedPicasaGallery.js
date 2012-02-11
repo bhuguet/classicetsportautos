@@ -120,10 +120,14 @@
 
 
             function appendImage(i,item){
-                var title,$div,$img;
+                var title,$div,$img,titleDisplayed;
                 title = item.media$group.media$title.$t;
                 if (title.match(meta_opts.matcher)){
                     albumCount++;
+                    titleDisplayed = title;
+                    if (titleDisplayed.length > 12) {
+                        titleDisplayed = titleDisplayed.substring(0, 12) + '..'
+                    }
                     $img = $('<img/>')
                     	.addClass('pict') //BHU
                         .attr('title',title)
@@ -140,8 +144,8 @@
                            showAlbum($this,meta_opts,item.gphoto$id.$t,title,item.gphoto$numphotos.$t);
                         })
                         .hover(
-                            function () { $(this).css("cursor","pointer")},
-                            function () { $(this).css("cursor","default")}
+                            function () {$(this).css("cursor","pointer")},
+                            function () {$(this).css("cursor","default")}
                         )
                         .append( $img )
                         .append(
@@ -150,7 +154,7 @@
                             .css({
                                 'font-size': '10px'
                             })*/
-                            .text(title + ' >>')
+                            .text(titleDisplayed)
                             .width( meta_opts.size )
                         )
                     $album_list.append($div);
