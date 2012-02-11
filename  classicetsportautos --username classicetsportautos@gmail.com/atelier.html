@@ -21,15 +21,15 @@
 <script type="text/javascript" src="jquery/jquery.EmbedPicasaGallery_0/jquery.EmbedPicasaGallery.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function() {
-    jQuery("#pics").EmbedPicasaGallery('101448589802546946811',{
-	loading_animation: 'jquery/jquery.EmbedPicasaGallery_0/css/loading.gif',
-	matcher: /./,
-    size:               '72',        // thumbnail size (32, 48, 64, 72, 144, 160)
-    msg_back :          'Retour aux albums',
-    msg_loading_list :  'Chargement des albums...',
-    album_title_tag:    '<h2/>',
-    thumb_id_prefix:    ''
-    });
+    jQuery("#mygallery").EmbedPicasaGallery('101448589802546946811',{
+        loading_animation: 'jquery/jquery.EmbedPicasaGallery_0/css/loading.gif',
+        matcher: /./,
+        size:               '72',        // thumbnail size (32, 48, 64, 72, 144, 160)
+        msg_back :          'Retour aux albums',
+        msg_loading_list :  'Chargement des albums...',
+        album_title_tag:    '<h1/>',
+        thumb_id_prefix:    ''
+        });
 
 })
 </script>
@@ -62,9 +62,8 @@ jQuery(document).ready(function() {
 			<div class="clearit"></div>
 			<br/>
 
-				<div id="pics"></div>
-				<div id="pics2"></div>
-				<div class="clearit"></div>
+			<div id="mygallery"></div>
+			<div class="clearit"></div>
 
 		</div>
                 <?php include 'includes/bottom.inc.php'; ?>
