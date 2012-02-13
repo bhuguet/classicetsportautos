@@ -45,25 +45,29 @@
 				<br/><br/>
 				<div class="col560">
 					<h1>Vente</h1>
-                                        <hr/>                                        
+                                        <hr/>   
+                                        <?php
+                                            include_once 'classes/Car.php';
+                                            $xk120Roadster = new Car("xk120_roadster.jpg", "Jaguar XK 120 Roadster");
+                                            $xk120Roadster->setOtherPictures(array("jaguarXK120_3.JPG", "jaguarXK120_2.JPG", "xk120_roadster_int.jpg"));
+                                        ?>
                                                 <div class="vente-titre">
-							<a rel="xk120" href="img/ventes/xk120/xk120_roadster.jpg" title="Jaguar XK 120 Roadster">
-                                                        <img class="pict" src="/utils/image.php/xk120_roadster.jpg?height=78&width=78&cropratio=1:1&image=/img/ventes/xk120/xk120_roadster.jpg"/></a>
-                                                        <h2>Jaguar XK 120 Roadster</h2>                                                        
-                                                        <p>Prix: <strong>79 900&euro;</strong></p>
-                                                        <p>Ville: <strong>38400 Saint Martin d'Hères</strong></p>
+                                                    <a rel="xk120" href="<?php echo $xk120Roadster->getImage("img/ventes/xk120/"); ?>" title="<?php echo $xk120Roadster->getLabel(); ?>">
+                                                    <img class="pict" src="<?php echo $xk120Roadster->getResizedImage("/img/ventes/xk120/",78); ?>"/></a>
+                                                    <h2>Jaguar XK 120 Roadster</h2>                                                        
+                                                    <p>Prix: <strong>79 900&euro;</strong></p>
+                                                    <p>Ville: <strong>38400 Saint Martin d'Hères</strong></p>
 						</div>
 						<div class="vente-col1">
                                                         <p>Ann&eacute;e-mod&egrave;le: <strong>1953</strong></p>
 							<p>Kilom&eacute;trage: <strong>28 578 KM</strong></p>
 						</div>
 						<div class="vente-col2">
-							<a rel="xk120" href="img/ventes/xk120/jaguarXK120_3.JPG" title="Jaguar XK 120 Roadster">
-                                                        <img class="icone" src="/utils/image.php/jaguarXK120_3.JPG?height=20&width=20&cropratio=1:1&image=/img/ventes/xk120/jaguarXK120_3.JPG"/></a>
-                                                        <a rel="xk120" href="img/ventes/xk120/jaguarXK120_2.JPG" title="Jaguar XK 120 Roadster">
-                                                        <img class="icone" src="/utils/image.php/jaguarXK120_2.jpg?height=20&width=20&cropratio=1:1&image=/img/ventes/xk120/jaguarXK120_2.JPG"/></a>
-                                                        <a rel="xk120" href="img/ventes/xk120/xk120_roadster_int.jpg" title="Jaguar XK 120 Roadster">
-                                                        <img class="icone" src="/utils/image.php/xk120_roadster_int.jpg?height=20&width=20&cropratio=1:1&image=/img/ventes/xk120/xk120_roadster_int.jpg"/></a>
+                                                    <?php
+                                                      foreach ($xk120Roadster->getOtherPictures() as $picture) { ?>
+                                                        <a rel="xk120" href="img/ventes/xk120/<?php echo $picture; ?>" title="<?php echo $xk120Roadster->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $xk120Roadster->getResizedImageForPicture("/img/ventes/xk120/",20,$picture); ?>"/></a>
+                                                      <?php } ?>
 						<p>
                                                 Belle Jaguar XK 120 roadster de 1953, conduite à droite d'origine, de couleur rouge avec de jolis sièges 
                                                 bi-ton.
@@ -76,29 +80,28 @@
 						<!--a class="plus" href="javascript:OuvrirPopup('popup.html', '', 'resizable=no, location=no, width=260, height=300, menubar=no, status=no, scrollbars=no, menubar=no','top=200,left=200')">D&eacute;tails >></a-->
 						</div>
 						<div class="clearit"></div>       
-					<hr/>                                        
-                                                <div class="vente-titre">                                        
-							<a rel="daimler" href="img/ventes/daimler/daimler1.jpg" title="Daimler Sovereign">
-							<img class="pict" src="img/ventes/daimler/daimler1.jpg" alt="" /></a>
-                                                        <h2>Daimler Sovereign 4,2l</h2>                                                        
-                                                        <p>Prix: <strong>6 500&euro;</strong></p>
-                                                        <p>Ville: <strong>38400 Saint Martin d'Hères</strong></p>
+					<hr/>
+                                        <?php
+                                            $daimler = new Car("daimler1.JPG", "Daimler Sovereign");
+                                            $daimler->setOtherPictures(array("daimler2.JPG", "daimler3.JPG", "daimler4.JPG", "daimler5.JPG", "daimler6.JPG"));
+                                        ?>                                        
+                                                <div class="vente-titre">
+                                                    <a rel="daimler" href="<?php echo $daimler->getImage("img/ventes/daimler/"); ?>" title="<?php echo $daimler->getLabel(); ?>">
+                                                    <img class="pict" src="<?php echo $daimler->getResizedImage("/img/ventes/daimler/",78); ?>"/></a>                                                    
+                                                    <h2>Daimler Sovereign 4,2l</h2>                                                        
+                                                    <p>Prix: <strong>6 500&euro;</strong></p>
+                                                    <p>Ville: <strong>38400 Saint Martin d'Hères</strong></p>
 						</div>
 						<div class="vente-col1">
                                                         <p>Ann&eacute;e-mod&egrave;le: <strong>1980</strong></p>
 							<p>Kilom&eacute;trage: <strong>93 000 KM</strong></p>
 						</div>
 						<div class="vente-col2">
-							<a rel="daimler" href="img/ventes/daimler/daimler2.jpg" title="Daimler Sovereign">
-							<img class="icone" src="img/ventes/daimler/daimler2.jpg" alt="" /></a>
-							<a rel="daimler" href="img/ventes/daimler/daimler3.jpg" title="Daimler Sovereign">
-							<img class="icone" src="img/ventes/daimler/daimler3.jpg" alt="" /></a>
-							<a rel="daimler" href="img/ventes/daimler/daimler4.jpg" title="Daimler Sovereign">
-							<img class="icone" src="img/ventes/daimler/daimler4.jpg" alt="" /></a>
-							<a rel="daimler" href="img/ventes/daimler/daimler5.jpg" title="Daimler Sovereign">
-							<img class="icone" src="img/ventes/daimler/daimler5.jpg" alt="" /></a>
-							<a rel="daimler" href="img/ventes/daimler/daimler6.jpg" title="Daimler Sovereign">
-							<img class="icone" src="img/ventes/daimler/daimler6.jpg" alt="" /></a>                                                        
+                                                    <?php
+                                                      foreach ($daimler->getOtherPictures() as $picture) { ?>
+                                                        <a rel="daimler" href="img/ventes/daimler/<?php echo $picture; ?>" title="<?php echo $daimler->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $daimler->getResizedImageForPicture("/img/ventes/daimler/",20,$picture); ?>"/></a>
+                                                      <?php } ?>
 						<p>
                                                 Jolie Daimler Sovereign 4,2l de 1980. 93000km au compteur, même propriétaire depuis 1994 ayant acheté 
                                                 la voiture à 48303km. </p>
@@ -111,60 +114,31 @@
 						</div>
 						<div class="clearit"></div>                                        
 					<hr/>
-                                                <div class="vente-titre">                                        
-							<a rel="190sl" href="img/ventes/190sl3.jpg" title="sl 190">
-							<img class="pict" src="img/ventes/190sl3.jpg" alt="" /></a>
-                                                        <h2>Mercedes 190 SL <span style="padding-left: 15px; color:red; font-weight:bold;">VENDUE</span></h2>
-							<p>Prix: <strong>59 000&euro;</strong></p>
-							<p>Ville: <strong>38400 Saint Martin d'Hères</strong></p>
+                                        <?php
+                                            $sl190 = new Car("190sl3.JPG", "Mercedes 190 sl");
+                                            $sl190->setOtherPictures(array("190sl.JPG", "190sl2.JPG", "190sl4.JPG", "190sl5.JPG", "190sl6.JPG"
+                                                        , "190slpont.JPG", "190slpont2.JPG", "190slARD.JPG", "190slARG.JPG", "190slAVD.JPG"
+                                                        , "190slcarter.JPG", "190sldessous1.JPG", "190sldessous2.JPG", "190sldessous3.JPG", "190sldessous4.JPG"
+                                                        , "190sldessous5.JPG", "190sldessous6.JPG", "190slinterieur.JPG", "190slinterieur2.JPG", "190slinterieur3.JPG"
+                                                        , "190slinterieur4.JPG"));
+                                        ?>                                        
+                                                <div class="vente-titre">
+                                                    <a rel="190sl" href="<?php echo $sl190->getImage("img/ventes/"); ?>" title="<?php echo $sl190->getLabel(); ?>">
+                                                    <img class="pict" src="<?php echo $sl190->getResizedImage("/img/ventes/",78); ?>"/></a>                                                      
+                                                    <h2>Mercedes 190 SL <span style="padding-left: 15px; color:red; font-weight:bold;">VENDUE</span></h2>
+						    <p>Prix: <strong>59 000&euro;</strong></p>
+						    <p>Ville: <strong>38400 Saint Martin d'Hères</strong></p>
 						</div>
 						<div class="vente-col1">
 							<p>Ann&eacute;e-mod&egrave;le: <strong>1961</strong></p>
 							<p>Kilom&eacute;trage: <strong>109 567 KM</strong></p>
 						</div>
 						<div class="vente-col2">
-							<a rel="190sl" href="img/ventes/190sl.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190sl.jpg" alt="" /></a>
-							<a rel="190sl" href="img/ventes/190sl2.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190sl2.jpg" alt="" /></a>
-							<a rel="190sl" href="img/ventes/190sl4.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190sl4.jpg" alt="" /></a>
-							<a rel="190sl" href="img/ventes/190sl5.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190sl5.jpg" alt="" /></a>
-							<a rel="190sl" href="img/ventes/190sl6.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190sl6.jpg" alt="" /></a>                                                        
-							<a rel="190sl" href="img/ventes/190slpont.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190slpont.jpg" alt="" /></a>                                                        
-							<a rel="190sl" href="img/ventes/190slpont2.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190slpont2.jpg" alt="" /></a>           
-							<a rel="190sl" href="img/ventes/190slARD.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190slARD.jpg" alt="" /></a>
-							<a rel="190sl" href="img/ventes/190slARG.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190slARG.jpg" alt="" /></a>
-							<a rel="190sl" href="img/ventes/190slAVD.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190slAVD.jpg" alt="" /></a>
-							<a rel="190sl" href="img/ventes/190slcarter.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190slcarter.jpg" alt="" /></a>
-							<a rel="190sl" href="img/ventes/190sldessous1.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190sldessous1.jpg" alt="" /></a>
-							<a rel="190sl" href="img/ventes/190sldessous2.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190sldessous2.jpg" alt="" /></a>
-							<a rel="190sl" href="img/ventes/190sldessous3.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190sldessous3.jpg" alt="" /></a>
-							<a rel="190sl" href="img/ventes/190sldessous4.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190sldessous4.jpg" alt="" /></a>
-							<a rel="190sl" href="img/ventes/190sldessous5.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190sldessous5.jpg" alt="" /></a>
-							<a rel="190sl" href="img/ventes/190sldessous6.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190sldessous6.jpg" alt="" /></a>
-							<a rel="190sl" href="img/ventes/190slinterieur.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190slinterieur.jpg" alt="" /></a>
-							<a rel="190sl" href="img/ventes/190slinterieur2.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190slinterieur2.jpg" alt="" /></a>
-							<a rel="190sl" href="img/ventes/190slinterieur3.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190slinterieur3.jpg" alt="" /></a>
-							<a rel="190sl" href="img/ventes/190slinterieur4.jpg" title="190sl">
-							<img class="icone" src="img/ventes/190slinterieur4.jpg" alt="" /></a>                                                     
+                                                    <?php
+                                                      foreach ($sl190->getOtherPictures() as $picture) { ?>
+                                                        <a rel="190sl" href="img/ventes/<?php echo $picture; ?>" title="<?php echo $sl190->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $sl190->getResizedImageForPicture("/img/ventes/",20,$picture); ?>"/></a>
+                                                      <?php } ?>                                                    
 						<p>
                                                 Mercedes 190SL cabriolet blanche, intérieur cuir rouge, avec hardtop, en très bon état.</br>
 						Belle peinture avec quelques petits défauts. 
