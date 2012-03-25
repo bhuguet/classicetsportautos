@@ -46,8 +46,89 @@
 				<div class="col560">
 					<h1>Vente</h1>
                                         <hr/>   
+                                        <?php include_once 'classes/Car.php'; ?>
                                         <?php
-                                            include_once 'classes/Car.php';
+                                            $frogeye = new Car("Frog_AVD.jpg", "Austin Healey Sprite 1960 'Frogeye/Bugeye'");
+                                            $frogeye->setOtherPictures(array("Frog_AVG.jpg", "Frog_ARD.jpg", "Frog_interieur.jpg", "Frog_moteur.jpg"));
+                                        ?>
+                                                <div class="vente-titre">
+                                                    <a rel="frogeye" href="<?php echo $frogeye->getImage("img/ventes/Frogeye_1960/"); ?>" title="<?php echo $frogeye->getLabel(); ?>">
+                                                    <img class="pict" src="<?php echo $frogeye->getResizedImage("/img/ventes/Frogeye_1960/",78); ?>"/></a>
+                                                    <h2>Austin Healey Sprite 1960</h2>                                                        
+                                                    <p>Prix: <strong>19 500&euro;</strong></p>
+                                                    <p>Ville: <strong>38400 Saint Martin d'Hères</strong></p>
+						</div>
+						<div class="vente-col1">
+                                                        <p>Ann&eacute;e-mod&egrave;le: <strong>1960</strong></p>
+						</div>
+						<div class="vente-col2">
+                                                    <?php
+                                                      foreach ($frogeye->getOtherPictures() as $picture) { ?>
+                                                        <a rel="frogeye" href="img/ventes/Frogeye_1960/<?php echo $picture; ?>" title="<?php echo $frogeye->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $frogeye->getResizedImageForPicture("/img/ventes/Frogeye_1960/",20,$picture); ?>"/></a>
+                                                      <?php } ?>
+						<p>
+                                                Magnifique Austin Healey Frogeye de 1960 entierement restaurée (Provenance Desurmont), freins à disque à l'avant.
+                                                </p>
+						<p style="font-size:x-small; font-style:italic;">Publi&eacute; le 25 Mars 2012.</p>
+						</div>
+						<div class="clearit"></div>       
+					<hr/>
+                                        <?php
+                                            $tr5 = new Car("TR5_left.JPG", "Triumph TR5 1968");
+                                            $tr5->setOtherPictures(array("TR5_arriere.JPG", "TR5_ciel.JPG", "TR5_droite.JPG", "TR5_interieur.JPG", "TR5_moteur.JPG", "TR5_portiere.JPG"));
+                                        ?>
+                                                <div class="vente-titre">
+                                                    <a rel="tr5" href="<?php echo $tr5->getImage("img/ventes/TR5_1968/"); ?>" title="<?php echo $tr5->getLabel(); ?>">
+                                                    <img class="pict" src="<?php echo $tr5->getResizedImage("/img/ventes/TR5_1968/",78); ?>"/></a>
+                                                    <h2>Triumph TR5 1968</h2>                                                        
+                                                    <p>Prix: <strong>36 000&euro;</strong></p>
+                                                    <p>Ville: <strong>38400 Saint Martin d'Hères</strong></p>
+						</div>
+						<div class="vente-col1">
+                                                        <p>Ann&eacute;e-mod&egrave;le: <strong>1968</strong></p>
+						</div>
+						<div class="vente-col2">
+                                                    <?php
+                                                      foreach ($tr5->getOtherPictures() as $picture) { ?>
+                                                        <a rel="tr5" href="img/ventes/TR5_1968/<?php echo $picture; ?>" title="<?php echo $tr5->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $tr5->getResizedImageForPicture("/img/ventes/TR5_1968/",20,$picture); ?>"/></a>
+                                                      <?php } ?>
+						<p>
+                                                Très belle TR5 PI de 1968, restaurée en 1995.
+                                                </p>
+						<p style="font-size:x-small; font-style:italic;">Publi&eacute; le 25 Mars 2012.</p>
+						</div>
+						<div class="clearit"></div>       
+					<hr/>
+                                        <?php
+                                            $corvette = new Car("Corvette_AVD.jpg", "Chevrolet Corvette 1958");
+                                            $corvette->setOtherPictures(array("Corvette_avant.jpg", "Corvette_droite.jpg", "Corvette_gauche.jpg"));
+                                        ?>
+                                                <div class="vente-titre">
+                                                    <a rel="corvette" href="<?php echo $corvette->getImage("img/ventes/Corvette_1958/"); ?>" title="<?php echo $corvette->getLabel(); ?>">
+                                                    <img class="pict" src="<?php echo $corvette->getResizedImage("/img/ventes/Corvette_1958/",78); ?>"/></a>
+                                                    <h2>Chevrolet Corvette 1958</h2>                                                        
+                                                    <p>Prix: <strong>59 000&euro;</strong></p>
+                                                    <p>Ville: <strong>38400 Saint Martin d'Hères</strong></p>
+						</div>
+						<div class="vente-col1">
+                                                        <p>Ann&eacute;e-mod&egrave;le: <strong>1958</strong></p>
+						</div>
+						<div class="vente-col2">
+                                                    <?php
+                                                      foreach ($corvette->getOtherPictures() as $picture) { ?>
+                                                        <a rel="corvette" href="img/ventes/Corvette_1958/<?php echo $picture; ?>" title="<?php echo $corvette->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $corvette->getResizedImageForPicture("/img/ventes/Corvette_1958/",20,$picture); ?>"/></a>
+                                                      <?php } ?>
+						<p>
+                                                Belle Chevrolet Corvette de 1958. Très bon état. Pont changé.
+                                                </p>
+						<p style="font-size:x-small; font-style:italic;">Publi&eacute; le 25 Mars 2012.</p>
+						</div>
+						<div class="clearit"></div>       
+					<hr/>                                        
+                                        <?php
                                             $xk120Roadster = new Car("xk120_roadster.jpg", "Jaguar XK 120 Roadster");
                                             $xk120Roadster->setOtherPictures(array("jaguarXK120_3.JPG", "jaguarXK120_2.JPG", "xk120_roadster_int.jpg"));
                                         ?>
