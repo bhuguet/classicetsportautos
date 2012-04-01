@@ -26,13 +26,6 @@
             <li>et de 14h00 &agrave; 18h30</li>
         </ul>
         <br/>
-        <h2>Adresse</h2>
-        <ul>
-            <li>Classic et Sport Autos</li>
-            <li>20 RUE DU BEAL</li>
-            <li>38400 Saint-martin-d'h&egrave;res</li>
-            <li><b>T&eacute;l</b> : +33 (0)4.57.93.38.57</li>
-        </ul>
     </div>
     <div class="clearit"></div>
     <div class ="mentions">
