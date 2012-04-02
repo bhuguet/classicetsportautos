@@ -1,16 +1,6 @@
 <div class="car"></div>
 <div class="pieddepage">
-    <div class="col260">
-        <h2>Le site</h2>
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="atelier.html">Atelier</a></li>
-            <li><a href="engagements.html">Nos engagements</a></li>
-            <li><a href="achatsventes.html">Achats/Ventes</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
-    <div class="col260">
+    <div class="col560">
         <h2>Evènements</h2>
         <p>
         <li><a href="http://www.auto-pedia.fr/uriage-cabriolet-classic/">Uriage Cabriolet Classic 2012</a> - Dimanche 13 Mai 2012</li>
