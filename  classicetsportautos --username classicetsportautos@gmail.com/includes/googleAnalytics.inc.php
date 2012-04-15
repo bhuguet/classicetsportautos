@@ -1,8 +1,8 @@
 <script type="text/javascript">
-//Google Analytics
+
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-20953337-3']);
-  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setDomainName', 'classicetsportautos.fr']);
   _gaq.push(['_setAllowLinker', true]);
   _gaq.push(['_trackPageview']);
 
