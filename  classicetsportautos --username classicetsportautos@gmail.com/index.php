@@ -45,7 +45,7 @@
 				<p>
                                     <?php echo $nos_prestations_paragraphe_2; ?>
 				</p>
-				<a class="plus" href="engagements.html"><?php echo $lire_la_suite; ?></a>                            
+				<a class="plus" href="<?php echo $menu_engagements_file; ?>"><?php echo $lire_la_suite; ?></a>                            
     <br/><br/>
                         <?php include 'includes/atelierWidget.inc.php'; ?>
                         </div>
