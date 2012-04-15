@@ -4,16 +4,16 @@
 <head>
 <?php include 'includes/metas.inc.php'; ?>
 
-<meta name="description" content="Contactez nous et venez nous rendre visite &agrave; Classic & Sport Autos">
-<meta name="keywords" content="contact, adresse, plan, accès, annuaires, liens, coordonnées">
+<meta name="description" content="<?php echo $contact_description; ?>">
+<meta name="keywords" content="<?php echo $contact_keywords; ?>">
 
-<title>Classic & Sport Autos - Plan d'accès et Coordonnées</title>
+<title><?php echo $contact_title; ?></title>
 <link rel="shortcut icon" href="images/csa.ico">
-<link rel="stylesheet" type="text/css" media="screen" href="css/init.css">
-<link rel="stylesheet" type="text/css" media="screen" href="css/layout.css">
-<link rel="stylesheet" type="text/css" media="screen" href="css/csa.css">
-<link rel="stylesheet" type="text/css" media="screen" href="css/ju2com.css">
-<link rel="stylesheet" type="text/css" media="print" href="css/csa.css">
+<link rel="stylesheet" type="text/css" media="screen" href="../css/init.css">
+<link rel="stylesheet" type="text/css" media="screen" href="../css/layout.css">
+<link rel="stylesheet" type="text/css" media="screen" href="../css/csa.css">
+<link rel="stylesheet" type="text/css" media="screen" href="../css/ju2com.css">
+<link rel="stylesheet" type="text/css" media="print" href="../css/csa.css">
 
 <?php include 'includes/googleAnalytics.inc.php'; ?>
 
@@ -30,28 +30,28 @@
 			</div>
 
 			<div class="col560">
-				<h1>Plan</h1>
-				<iframe width="558" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=20+RUE+DU+BEAL+38400+Saint-martin-d'heres&amp;sll=45.164616,5.758692&amp;sspn=0.006672,0.027874&amp;ie=UTF8&amp;hq=&amp;hnear=20+Rue+du+B%C3%A9al,+38400+Saint-Martin-d'H%C3%A8res,+Is%C3%A8re,+Rh%C3%B4ne-Alpes&amp;ll=45.164611,5.758724&amp;spn=0.021181,0.022144&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=20+RUE+DU+BEAL+38400+Saint-martin-d'heres&amp;sll=45.164616,5.758692&amp;sspn=0.006672,0.027874&amp;ie=UTF8&amp;hq=&amp;hnear=20+Rue+du+B%C3%A9al,+38400+Saint-Martin-d'H%C3%A8res,+Is%C3%A8re,+Rh%C3%B4ne-Alpes&amp;ll=45.164611,5.758724&amp;spn=0.021181,0.022144&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">Agrandir le plan</a></small>
+				<h1><?php echo $plan_title; ?></h1>
+				<iframe width="558" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.fr/maps?f=q&amp;source=s_q&amp;hl=fr&amp;geocode=&amp;q=20+RUE+DU+BEAL+38400+Saint-martin-d'heres&amp;sll=45.164616,5.758692&amp;sspn=0.006672,0.027874&amp;ie=UTF8&amp;hq=&amp;hnear=20+Rue+du+B%C3%A9al,+38400+Saint-Martin-d'H%C3%A8res,+Is%C3%A8re,+Rh%C3%B4ne-Alpes&amp;ll=45.164611,5.758724&amp;spn=0.021181,0.022144&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="http://maps.google.fr/maps?f=q&amp;source=embed&amp;hl=fr&amp;geocode=&amp;q=20+RUE+DU+BEAL+38400+Saint-martin-d'heres&amp;sll=45.164616,5.758692&amp;sspn=0.006672,0.027874&amp;ie=UTF8&amp;hq=&amp;hnear=20+Rue+du+B%C3%A9al,+38400+Saint-Martin-d'H%C3%A8res,+Is%C3%A8re,+Rh%C3%B4ne-Alpes&amp;ll=45.164611,5.758724&amp;spn=0.021181,0.022144&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left"><?php echo $agrandir_le_plan; ?></a></small>
 			</div>
 			<div class="col260_3">
-				<h1>Contact</h1>
+				<h1><?php echo $contact_title; ?></h1>
 				<ul>
-					<li><b>email</b> : contact@classicetsportautos.fr</li>
-					<li><b>T&eacute;l</b> : +33 (0)4.57.93.38.57</li>
+					<li><?php echo $contact_email; ?></li>
+					<li><?php echo $contact_phone; ?></li>
 				</ul>
 				<br/>
-				<h1>Horaires d'ouverture</h1>
+				<h1><?php echo $horaires_ouverture_title; ?></h1>
 				<ul>
-					<li>Du Lundi au Vendredi</li>
-					<li>de 9h00 &agrave; 12h00</li>
-					<li>et de 14h00 &agrave; 18h30</li>
+					<li><?php echo $horaires_ouverture_jours; ?></li>
+					<li><?php echo $horaires_ouverture_matin; ?></li>
+					<li><?php echo $horaires_ouverture_apreme; ?></li>
 				</ul>
 				<br/>
-				<h1>Adresse</h1>
+				<h1><?php echo $adresse_title; ?></h1>
 				<ul>
-					<li>Classic et Sport Autos</li>
-					<li>20 RUE DU BEAL</li>
-					<li>38400 Saint-martin-d'h&egrave;res</li>
+					<li><?php echo $adresse_nom; ?></li>
+					<li><?php echo $adresse_rue; ?></li>
+					<li><?php echo $adresse_ville; ?></li>
 				</ul>
 			</div>
 			<div class="clearit"></div>
