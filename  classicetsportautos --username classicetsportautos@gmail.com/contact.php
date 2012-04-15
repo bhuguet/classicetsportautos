@@ -52,6 +52,7 @@
 					<li><?php echo $adresse_nom; ?></li>
 					<li><?php echo $adresse_rue; ?></li>
 					<li><?php echo $adresse_ville; ?></li>
+                                        <li><?php echo $adresse_pays; ?></li>
 				</ul>
 			</div>
 			<div class="clearit"></div>

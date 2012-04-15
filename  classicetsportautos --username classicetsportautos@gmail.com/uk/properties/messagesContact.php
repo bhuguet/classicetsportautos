@@ -15,3 +15,4 @@ $adresse_title="Address";
 $adresse_nom="Classic et Sport Autos";
 $adresse_rue="20 Rue du Beal";
 $adresse_ville="38400 Saint-Martin-d'Hères";
+$adresse_pays="France";
