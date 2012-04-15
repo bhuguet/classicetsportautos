@@ -6,7 +6,7 @@ class CSAUtils {
         $country = "fr";
         $httpHost = $_SERVER['HTTP_HOST'];
 
-        if ("127.0.0.1:8888" == $_SERVER['HTTP_HOST']) {
+        if (preg_match('/^(.*)127.0.0.1:8888(.*)/', $httpHost)) {        
             $country = "uk";
         }
 
