@@ -30,10 +30,10 @@
     
     
     ?>
-    <li><a <?php echo $hAccueil; ?> href="index.html">Accueil</a></li>
-    <li><a <?php echo $hAtelier; ?> href="atelier.html">Atelier</a></li>
-    <li><a <?php echo $hEngagements; ?> href="engagements.html">Nos engagements</a></li>
-    <li><a <?php echo $hAchatsVentes; ?> href="achatsventes.html">Achats/Ventes</a></li>
-    <li><a <?php echo $hContact; ?> href="contact.html">Contact</a></li>
+    <li><a <?php echo $hAccueil; ?> href="<?php echo $menu_accueil_file; ?>"><?php echo $menu_accueil; ?></a></li>
+    <li><a <?php echo $hAtelier; ?> href="<?php echo $menu_atelier_file; ?>"><?php echo $menu_atelier; ?></a></li>
+    <li><a <?php echo $hEngagements; ?> href="<?php echo $menu_engagements_file; ?>"><?php echo $menu_nos_engagements; ?></a></li>
+    <li><a <?php echo $hAchatsVentes; ?> href="<?php echo $menu_achatsventes_file; ?>"><?php echo $menu_achats_ventes; ?></a></li>
+    <li><a <?php echo $hContact; ?> href="<?php echo $menu_contact_file; ?>"><?php echo $menu_contact; ?></a></li>
 </ul>
 <div class="clearit"></div>

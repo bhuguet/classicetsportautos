@@ -1,31 +1,34 @@
 <div class="car"></div>
 <div class="pieddepage">
     <div class="col560">
-        <h2>Evènements</h2>
+        <h2><?php echo $evenements_title; ?></h2>
         <p>
-        <li><a href="http://www.auto-pedia.fr/uriage-cabriolet-classic/">Uriage Cabriolet Classic 2012</a> - Dimanche 13 Mai 2012</li>
-        <li><a href="http://www.auto-pedia.fr/vag-wintercab-2012/">Winter CAB 2012</a> - Samedi 31 Mars 2012 </li>
-        <li>Retrouvez C&SA sur <a href="http://www.auto-pedia.fr/"><b>auto-pedia.fr</b></a></li>
+        <li><?php echo $evenements_first_bullet; ?></li>
+        <li><?php echo $evenements_second_bullet; ?></li>
+        <li><?php echo $evenements_third_bullet; ?></li>
         </p>
     </div>
     <div class="col260_3">
-        <h2>Horaires d'ouverture</h2>
+        <h2><?php echo $horaires_ouverture_title; ?></h2>
         <ul>
-            <li>Du Lundi au Vendredi</li>
-            <li>de 9h00 &agrave; 12h00</li>
-            <li>et de 14h00 &agrave; 18h30</li>
+            <li><?php echo $horaires_ouverture_jours; ?></li>
+            <li><?php echo $horaires_ouverture_matin; ?></li>
+            <li><?php echo $horaires_ouverture_apreme; ?></li>
         </ul>
         <br/>
     </div>
     <div class="clearit"></div>
     <div class ="mentions">
-        <b>Classic & Sport Autos</b> - 20 Rue du B&eacute;al - 38400 Saint-martin-d'h&egrave;res
+        <?php echo $adresse_ligne_1; ?>
         <br/>
-				T&eacute;l&eacute;phone +33 (0)4.57.93.38.57 - T&eacute;l&eacute;copie +33 (0)4.57.93.38.57 - <a href="mailto:contact@classicetsportautos.fr">contact@classicetsportautos.fr</a>
+        <?php echo $adresse_ligne_2; ?>
         <br/>
-				Copyright ©2011 Classic & Sport Autos, Tous droits réservés.
+	<?php echo $adresse_ligne_3; ?>
         <br/>
-				Num&eacute;ro siren : 527 671 515
+        <?php echo $adresse_ligne_4; ?>
+    </div>
+    <div class="world">
+        <?php echo $csa_dans_le_monde; ?>
     </div>
     <script type="text/javascript" src="http://www.ju2com.fr/js/signatureFdNr.js"></script>
 </div>

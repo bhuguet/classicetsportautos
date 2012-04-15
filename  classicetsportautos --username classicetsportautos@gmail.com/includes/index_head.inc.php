@@ -1,4 +1,4 @@
-<script type="text/javascript" src="jquery/js/jquery-1.3.1.min.js"></script>
+<script type="text/javascript" src="../jquery/js/jquery-1.3.1.min.js"></script>
 
 <script type="text/javascript">
 
@@ -73,14 +73,14 @@ function gallery() {
 </script>
 
 
-<link rel="stylesheet" type="text/css" media="screen" href="jquery/css/slideshow.css">
+<link rel="stylesheet" type="text/css" media="screen" href="../jquery/css/slideshow.css">
 
 	<script>
 		!window.jQuery && document.write('<script src="jquery-1.4.3.min.js"><\/script>');
 	</script>
-	<script type="text/javascript" src="jquery/jquery.fancybox-1.3.4/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-	<script type="text/javascript" src="jquery/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-	<link rel="stylesheet" type="text/css" href="jquery/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+	<script type="text/javascript" src="../jquery/jquery.fancybox-1.3.4/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+	<script type="text/javascript" src="../jquery/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="../jquery/jquery.fancybox-1.3.4/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
 
 	<script type="text/javascript">
 		$(document).ready(function() {

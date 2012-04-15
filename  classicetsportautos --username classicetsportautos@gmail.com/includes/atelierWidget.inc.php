@@ -16,13 +16,13 @@ $triumphTR3 = new Car("Triumph_TR3_b.jpg", "Triumph TR3", "pict2");
 $visitesCars = array($xk140, $amilcar, $triumphTR3);
 ?>
 
-    <h1>L'atelier</h1>
+    <h1><?php echo $latelier_title; ?></h1>
     <?php
     foreach ($atelierCars as $car) { ?>
-        <a rel="example_group" href="<?php echo $car->getImage("img/atelier/");?>" title="<?php echo $car->getLabel();?>">
+        <a rel="example_group" href="<?php echo $car->getImage("/img/atelier/");?>" title="<?php echo $car->getLabel();?>">
         <img class="<?php echo $car->getCssClass();?>" src="<?php echo $car->getResizedImage("/img/atelier/",80);?>" /></a>        
     <?php } ?>
 
     <p>
-	<a class="plus" href="atelier.html">Voir la suite >></a>
+	<a class="plus" href="atelier.html"><?php echo $voir_la_suite; ?></a>
     </p>
