@@ -13,3 +13,5 @@ $adresse_ligne_1="<b>Classic & Sport Autos</b> - 20 Rue du Béal - 38400 Saint-m
 $adresse_ligne_2="Téléphone +33 (0)4.57.93.38.57 - Télécopie +33 (0)4.57.93.38.57 - <a href='mailto:contact@classicetsportautos.fr'>contact@classicetsportautos.fr</a>";
 $adresse_ligne_3="Copyright ©2011 Classic & Sport Autos, Tous droits réservés.";
 $adresse_ligne_4="Numéro siren : 527 671 515";
+
+$csa_dans_le_monde="Classic & Sport Autos dans le monde - <a href='http://www.classicetsportautos.com'>United Kingdom <img src='../img/logo_drapeau_anglais.gif'/></a>";
