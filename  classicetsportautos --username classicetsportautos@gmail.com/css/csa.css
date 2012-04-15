@@ -312,3 +312,15 @@ img.icone{
 	margin-top:10px;
 	text-align:right;
 }
+
+.world{
+	color:#666;
+	font-size:11px;
+	text-align:center;
+}
+
+.world img{
+        margin-bottom: 0px;
+        vertical-align: middle;
+        padding-left: 3px;
+}
