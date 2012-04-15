@@ -1,9 +1,9 @@
 <?php
 
-$atelier_description="Découvrez en photos l'atelier et les publications de Classic et Sport Autos.";
-$atelier_keywords="atelier, photos, visites, publications";
-$atelier_title="Classic & Sport Autos - Photos de l'Atelier et Publications";
+$atelier_description="Discover pictures of Classic & Sport Auto’s workshop.";
+$atelier_keywords="workshop, pictures, visits, articles";
+$atelier_title="Classic & Sport Autos – Workshop pictures and articles";
 
 $csa_title="Classic et Sport Autos";
-$csa_bandeau_alt="atelier";
-$csa_description="Cliquez sur les albums pour découvrir en images notre atelier ou les autres albums photos de Classic & Sport Autos.";
+$csa_bandeau_alt="workshop";
+$csa_description="Click on albums to discover pictures of the shop and other pictures related to Classic & Sport Autos.";

@@ -1,23 +1,17 @@
 <?php
 
-$index_description="Classic & Sport Autos entretien et la réparation de voitures de collection
-                    avec spécialité en voitures anglaises, Jaguar, Lotus, Austin Healey, MG, Triumph...
-                    mais ouvert aussi aux autres véhicules de collection, en particulier italiens, Alfa Roméo, Ferrari, Fiat, Lancia...
-                    J'aide aussi mes clients à acheter ou à vendre leur véhicule ancien.";
-$index_keywords="entretien autos anciennes, répare et prépare votre  voiture ancienne, réparation, préparation, anglaises, italiennes";
-$index_title="Classic & Sport Autos - Entretien et Réparation de Voitures de Collection";
+$index_description="Classic & Sport Autos maintenance and repair of classic cars with a speciality in British cars, Jaguar, Lotus, Austin Healey, MG, Triumph, Sundeam, … but also involved in other cars, in particular Italian, Alfa Romeo, Fiat, Ferrari, …
+                    I also support my customer in the buy or sale of their classic car.";
+$index_keywords="Classic car maintenance, classic car repair and preparation, repair, preparation, British, Italian";
+$index_title="Classic & Sport Autos – Classic car maintenance and repair";
 
-$img_title_panorama_new_year_2012="Bonne année 2012";
-$img_title_panorama_first_birthday="1er anniversaire de Classic & Sport Autos";
+$img_title_panorama_new_year_2012="Happy new year 2012";
+$img_title_panorama_first_birthday="Classic & Sport Autos 1st birthday";
 
-$nos_prestations_title="Nos prestations";
-$nos_prestations_paragraphe_1="Nos activités principales à Classic & Sport Autos sont
-                              l'entretien, la réparation, la mise au point et l'amélioration de
-                              performances de voitures de collection.";
-$nos_prestations_paragraphe_2="Nous sommes spécialisés en voitures anglaises, <i>Jaguar, Aston Martin,
-                              Lotus, Austin Healey, MG, Triumph...</i> mais nous entretenons aussi d'autres
-                              véhicules de collection, en particulier italiens, <i>Alfa Roméo, Ferrari, Fiat, Lancia...</i>";
-$lire_la_suite="Lire la suite >>";
+$nos_prestations_title="Our activities";
+$nos_prestations_paragraphe_1="Our main activities at Classic & Sport Autos are the maintenance, repair, tuning and enhancement of classic cars.";
+$nos_prestations_paragraphe_2="We are specialized in British cars, <i>Jaguar, Aston Martin,Lotus, Austin Healey, MG, Triumph...</i> but we also take care of other classic cars, particularly Italian, <i>Alfa Roméo, Ferrari, Fiat, Lancia...</i>";
+$lire_la_suite="Follow-up >>";
 
-$latelier_title="L'atelier";
-$voir_la_suite="Voir la suite >>";
+$latelier_title="Workshop";
+$voir_la_suite="Follow-up >>";
