@@ -26,10 +26,9 @@ $sl190_description="1961 Mercedes 190SL roadster, red leather interior, hardtop,
                     Nice paint with few chips.
                     Reliable engine, very good oil pressure.
                     Mohair hood as new. ";
-$dynolite_apg_30_desc="Mineral Multigrade 20w/60 oil replacing SAE30 oil and multigrade 20W/50. It is specially formultaed for high performance engines in Porsche, Jaguar, Triumph, Ferrari, Alfa, MG, ...
-les véhicules haute-performance tels que MG, Porsche, Jaguar, Triumph, Ferrari, Alfa Etc...";
+$dynolite_apg_30_desc="Mineral Multigrade 20w/60 oil replacing SAE30 oil and multigrade 20W/60. It is specially formulated for high performance engines in Porsche, Jaguar, Triumph, Ferrari, Alfa, MG, ...";
 $dynolite_hypoid_desc="This oil replaces EP90 grade oil and exceeds GL5 norm. It is used in most post 1960 hypoid differentials.";
-$dynolite_gearoil_40_desc="This oil is used in gearboxes in replacement of SAE 40 and EP90. It is compatible with straight cut gears gearboxes, yyyy and hypocycloidal gears as in overdrives. It does not contain any EP additive which could damage bronze, copper or brass. This oil does not contain antifriction additives with molecular surface effects inducing slippage in overdrives and preselection gearboxes (Cotal, Wilson).";
+$dynolite_gearoil_40_desc="This oil is used in gearboxes in replacement of SAE 40 and EP90. It is compatible with straight cut gears gearboxes, synchronous and hypocycloidal gears as in overdrives. It does not contain any EP additive which could damage bronze, copper or brass. This oil does not contain antifriction additives with molecular surface effects inducing slippage in overdrives and preselection gearboxes (Cotal, Wilson).";
 
 $cherche_tr3="Looking for Triumph TR3 or MGA to restore.
              Maximum price: 10000€;
