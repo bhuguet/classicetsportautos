@@ -49,6 +49,21 @@ iframe{
 }
 /*****en tete page*****/
 
+.head {
+        position:relative;
+}
+
+.flag {
+        position:absolute;
+        right: 0px;
+        top: 8px;
+}
+
+.flag img {
+        width: 22px;
+        height: 15px;
+}
+
 .logo{
 	float:left;
 	margin-top:10px;
@@ -311,16 +326,4 @@ img.icone{
 	display:block;
 	margin-top:10px;
 	text-align:right;
-}
-
-.world{
-	color:#666;
-	font-size:11px;
-	text-align:center;
-}
-
-.world img{
-        margin-bottom: 0px;
-        vertical-align: middle;
-        padding-left: 3px;
 }

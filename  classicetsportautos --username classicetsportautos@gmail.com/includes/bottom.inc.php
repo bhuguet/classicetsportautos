@@ -27,8 +27,5 @@
         <br/>
         <?php echo $adresse_ligne_4; ?>
     </div>
-    <div class="world">
-        <?php echo $csa_dans_le_monde; ?>
-    </div>
     <script type="text/javascript" src="http://www.ju2com.fr/js/signatureFdNr.js"></script>
 </div>

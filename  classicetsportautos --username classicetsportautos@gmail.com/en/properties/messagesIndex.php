@@ -1,4 +1,5 @@
 <?php
+$flag_link="<a href='http://www.classicetsportautos.fr'><img src='../img/logo_drapeau_francais.gif'></img></a>";
 
 $index_description="Classic & Sport Autos maintenance and repair of classic cars with a speciality in British cars, Jaguar, Lotus, Austin Healey, MG, Triumph, Sundeam, … but also involved in other cars, in particular Italian, Alfa Romeo, Fiat, Ferrari, …
                     I also support my customer in the buy or sale of their classic car.";

@@ -1,4 +1,5 @@
 <div class="logo"></div>
+<div class="flag"><?php echo $flag_link ?></div>
 <ul class="menu">
     <?php  
     $classCurrent = 'class="current"';
