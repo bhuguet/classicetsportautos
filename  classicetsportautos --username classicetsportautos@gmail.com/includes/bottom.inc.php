@@ -6,6 +6,8 @@
         <li><?php echo $evenements_first_bullet; ?></li>
         <li><?php echo $evenements_second_bullet; ?></li>
         <li><?php echo $evenements_third_bullet; ?></li>
+        <li><?php echo $evenements_fourth_bullet; ?></li>
+        <li><?php echo $evenements_fifth_bullet; ?></li>
         </p>
     </div>
     <div class="col260_3">

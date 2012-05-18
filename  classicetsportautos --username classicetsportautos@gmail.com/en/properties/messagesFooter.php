@@ -1,8 +1,10 @@
 <?php
 $evenements_title="Events";
-$evenements_first_bullet="<a href='http://www.auto-pedia.fr/uriage-cabriolet-classic/'>Uriage Cabriolet Classic 2012</a> - Sunday 13th May 2012";
-$evenements_second_bullet="<a href='http://www.auto-pedia.fr/vag-wintercab-2012/'>Winter CAB 2012</a> - March 31st, 2012";
-$evenements_third_bullet="Meet with C&SA on <a href='http://www.auto-pedia.fr/'><b>auto-pedia.fr</b></a>";
+$evenements_first_bullet="<a href='http://www.rallye-des-soupapes.fr/'>Rallye des Soupapes</a> - Clermont-Ferrand, 2nd and 3rd of June 2012";
+$evenements_second_bullet="<a href='http://www.auto-pedia.fr/vag-wintercab-2012/'>Bourse Expo in Jarrie</a> - 2nd and 3rd of June 2012";
+$evenements_third_bullet="<a href='http://www.kiwanis-oyonnax.com/british-car-show'>British Car Show: Lotus</a> - Nantua the 10th of June 2012";
+$evenements_fourth_bullet="<a href='http://www.pmorganisation.fr/library/documents/clubs---web.pdf'>Grand Prix de l'Age d'Or</a> - Dijon-Prenois, 23rd and 24th of June 2012";
+$evenements_fifth_bullet="<a href='http://www.lemansclassic.com/'>Le Mans Classic 2012</a> - 6th to 8th July";
 
 $horaires_ouverture_title="Opening hours";
 $horaires_ouverture_jours="Monday through Friday";
