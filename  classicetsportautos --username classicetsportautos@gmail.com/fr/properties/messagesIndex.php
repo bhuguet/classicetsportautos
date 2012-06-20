@@ -1,6 +1,4 @@
 <?php
-$flag_link="<a href='http://www.classicetsportautos.com'><img src='../img/logo_drapeau_anglais.gif'></img></a>";
-
 $index_description="Classic & Sport Autos entretien et la réparation de voitures de collection
                     avec spécialité en voitures anglaises, Jaguar, Lotus, Austin Healey, MG, Triumph...
                     mais ouvert aussi aux autres véhicules de collection, en particulier italiens, Alfa Roméo, Ferrari, Fiat, Lancia...

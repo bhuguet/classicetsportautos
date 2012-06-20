@@ -8,12 +8,16 @@ $annonces_title="Annonces";
 $annonces_description="Vous recherchez une voiture ancienne ou désirez vendre la votre ? Ecrivez à <a href='mailto:contact@classicetsportautos.fr'>contact@classicetsportautos.fr</a> ou appelez le +33(0)4.57.93.38.57.";
 
 $vente_title="Vente";
+$achat_title="Achat";
 $prix="Prix:";
 $ville="Ville:";
 $annee_modele="Année-modèle:";
 $date_publication="Publié le";
 $kilometrage="Kilométrage:";
 
+$triumphHerald_description="Triumph Herald 1360 cabriolet en très bon état.</br>
+                            Le plaisir du cabriolet avec 4 places.</br>
+                            Nombreuses factures d'entretien depuis 1989.";
 $frogeye_description="Magnifique Austin Healey Frogeye de 1960 entierement restaurée (Provenance Desurmont), freins à disque à l'avant.";
 $tr5_description="Très belle TR5 PI de 1968, restaurée en 1995.";
 $corvette_description="Belle Chevrolet Corvette de 1958. Très bon état. Pont changé.";

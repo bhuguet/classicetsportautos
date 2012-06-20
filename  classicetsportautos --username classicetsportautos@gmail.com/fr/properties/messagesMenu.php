@@ -1,4 +1,6 @@
 <?php
+$flag_link="<a href='http://www.classicetsportautos.com'><img src='../img/logo_drapeau_anglais.gif'></img></a>";
+
 $menu_accueil="Accueil";
 $menu_atelier="Atelier";
 $menu_nos_engagements="Nos engagements";

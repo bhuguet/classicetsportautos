@@ -8,12 +8,16 @@ $annonces_title="Adverts";
 $annonces_description="You are looking for a classic car or you would like to sell yours, write to <a href='mailto:contact@classicetsportautos.fr'>contact@classicetsportautos.fr</a> or call +33(0)4.57.93.38.57.";
 
 $vente_title="Sell";
+$achat_title="Buy";
 $prix="Price:";
 $ville="City:";
 $annee_modele="Year:";
 $date_publication="Published on";
 $kilometrage="Mileage:";
 
+$triumphHerald_description="Triumph Herald 1360 roadster, very good condition.</br>
+                            The pleasure of a 4 seats roadster.</br>
+                            Many maintenance bills since 1989.";
 $frogeye_description="Beautiful 1960 Austin Healey Frogeye fully restored (Desurmont origin), front brake disks.";
 $tr5_description="Very nice 1968 Triumph TR5 PI, completely restored in 1995.";
 $corvette_description="Great 1958 Chevrolet Corvette de 1958. Runs very well. Rebuilt differential.";
