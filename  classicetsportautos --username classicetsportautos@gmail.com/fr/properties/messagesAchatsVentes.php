@@ -14,6 +14,7 @@ $ville="Ville:";
 $annee_modele="Année-modèle:";
 $date_publication="Publié le";
 $kilometrage="Kilométrage:";
+$vendue="VENDUE";
 
 $triumphHerald_description="Triumph Herald 1360 cabriolet en très bon état.</br>
                             Le plaisir du cabriolet avec 4 places.</br>

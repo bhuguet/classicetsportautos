@@ -14,6 +14,7 @@ $ville="City:";
 $annee_modele="Year:";
 $date_publication="Published on";
 $kilometrage="Mileage:";
+$vendue="SOLD";
 
 $triumphHerald_description="Triumph Herald 1360 roadster, very good condition.</br>
                             The pleasure of a 4 seats roadster.</br>

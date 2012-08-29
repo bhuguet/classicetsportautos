@@ -77,33 +77,6 @@
 						<div class="clearit"></div>       
 					<hr/>
                                         <?php
-                                            $frogeye = new Car("Frog_AVD.jpg", "Austin Healey Sprite 1960 'Frogeye/Bugeye'");
-                                            $frogeye->setOtherPictures(array("Frog_AVG.jpg", "Frog_ARD.jpg", "Frog_interieur.jpg", "Frog_moteur.jpg"));
-                                        ?>
-                                                <div class="vente-titre">
-                                                    <a rel="frogeye" href="<?php echo $frogeye->getImage("/img/ventes/Frogeye_1960/"); ?>" title="<?php echo $frogeye->getLabel(); ?>">
-                                                    <img class="pict" src="<?php echo $frogeye->getResizedImage("/img/ventes/Frogeye_1960/",78); ?>"/></a>
-                                                    <h2>Austin Healey Sprite</h2>                                                        
-                                                    <p><?php echo $prix; ?> <strong>18 000&euro;</strong></p>
-                                                    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
-						</div>
-						<div class="vente-col1">
-                                                        <p><?php echo $annee_modele; ?> <strong>1960</strong></p>
-						</div>
-						<div class="vente-col2">
-                                                    <?php
-                                                      foreach ($frogeye->getOtherPictures() as $picture) { ?>
-                                                        <a rel="frogeye" href="/img/ventes/Frogeye_1960/<?php echo $picture; ?>" title="<?php echo $frogeye->getLabel(); ?>">
-                                                        <img class="icone" src="<?php echo $frogeye->getResizedImageForPicture("/img/ventes/Frogeye_1960/",20,$picture); ?>"/></a>
-                                                      <?php } ?>
-						<p>
-                                                    <?php echo $frogeye_description; ?>
-                                                </p>
-						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 25 Mars 2012.</p>
-						</div>
-						<div class="clearit"></div>       
-					<hr/>
-                                        <?php
                                             $tr5 = new Car("TR5_left.JPG", "Triumph TR5 1968");
                                             $tr5->setOtherPictures(array("TR5_arriere.jpg", "TR5_ciel.JPG", "TR5_droite.jpg", "TR5_interieur.jpg", "TR5_moteur.jpg", "TR5_portiere.JPG"));
                                         ?>
@@ -221,6 +194,33 @@
 						<div class="clearit"></div>                                        
 					<hr/>
                                         <?php
+                                            $frogeye = new Car("Frog_AVD.jpg", "Austin Healey Sprite 1960 'Frogeye/Bugeye'");
+                                            $frogeye->setOtherPictures(array("Frog_AVG.jpg", "Frog_ARD.jpg", "Frog_interieur.jpg", "Frog_moteur.jpg"));
+                                        ?>
+                                                <div class="vente-titre">
+                                                    <a rel="frogeye" href="<?php echo $frogeye->getImage("/img/ventes/Frogeye_1960/"); ?>" title="<?php echo $frogeye->getLabel(); ?>">
+                                                    <img class="pict" src="<?php echo $frogeye->getResizedImage("/img/ventes/Frogeye_1960/",78); ?>"/></a>
+                                                    <h2>Austin Healey Sprite <span style="padding-left: 15px; color:red; font-weight:bold;"><?php echo $vendue; ?></span></h2>                                                        
+                                                    <p><?php echo $prix; ?> <strong>18 000&euro;</strong></p>
+                                                    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
+						</div>
+						<div class="vente-col1">
+                                                        <p><?php echo $annee_modele; ?> <strong>1960</strong></p>
+						</div>
+						<div class="vente-col2">
+                                                    <?php
+                                                      foreach ($frogeye->getOtherPictures() as $picture) { ?>
+                                                        <a rel="frogeye" href="/img/ventes/Frogeye_1960/<?php echo $picture; ?>" title="<?php echo $frogeye->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $frogeye->getResizedImageForPicture("/img/ventes/Frogeye_1960/",20,$picture); ?>"/></a>
+                                                      <?php } ?>
+						<p>
+                                                    <?php echo $frogeye_description; ?>
+                                                </p>
+						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 25 Mars 2012.</p>
+						</div>
+						<div class="clearit"></div>       
+					<hr/>                                        
+                                        <?php
                                             $sl190 = new Car("190sl3.JPG", "Mercedes 190 sl");
                                             $sl190->setOtherPictures(array("190sl.JPG", "190sl2.JPG", "190sl4.JPG", "190sl5.JPG", "190sl6.JPG"
                                                         , "190slpont.JPG", "190slpont2.JPG", "190slARD.JPG", "190slARG.JPG", "190slAVD.JPG"
@@ -231,7 +231,7 @@
                                                 <div class="vente-titre">
                                                     <a rel="190sl" href="<?php echo $sl190->getImage("/img/ventes/"); ?>" title="<?php echo $sl190->getLabel(); ?>">
                                                     <img class="pict" src="<?php echo $sl190->getResizedImage("/img/ventes/",78); ?>"/></a>                                                      
-                                                    <h2>Mercedes 190 SL <span style="padding-left: 15px; color:red; font-weight:bold;">VENDUE</span></h2>
+                                                    <h2>Mercedes 190 SL <span style="padding-left: 15px; color:red; font-weight:bold;"><?php echo $vendue; ?></span></h2>
 						    <p><?php echo $prix; ?> <strong>59 000&euro;</strong></p>
 						    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
 						</div>
