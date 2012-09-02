@@ -16,6 +16,19 @@ $date_publication="Published on";
 $kilometrage="Mileage:";
 $vendue="SOLD";
 
+$ferrariMondialT_description="2+2 Cabriolet </br>
+Engine: V8 3400, 320 CH</br>
+Leather interior, Active suspension, Air conditioning";
+$xjsLeMans_description="Amazing car </br>
+Car number 031 (limited edition to 250 cars)</br>
+Racing green color</br>
+First hand</br>
+</br>
+Equipment: </br>
+   Koni sport</br>
+   Drive hardened</br>
+   Watt's parallelogram</br>
+   All silent blocked changed to hard ones";
 $triumphHerald_description="Triumph Herald 1360 roadster, very good condition.</br>
                             The pleasure of a 4 seats roadster.</br>
                             Many maintenance bills since 1989.";

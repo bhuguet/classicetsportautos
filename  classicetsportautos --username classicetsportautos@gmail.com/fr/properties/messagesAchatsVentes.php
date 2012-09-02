@@ -16,6 +16,19 @@ $date_publication="Publié le";
 $kilometrage="Kilométrage:";
 $vendue="VENDUE";
 
+$ferrariMondialT_description="Cabriolet 2+2</br> 
+Moteur V8 3400, 320 CH</br>
+Intérieur cuir, Suspension active, Climatisation";
+$xjsLeMans_description="Voiture exceptionnelle </br>
+Voiture n°031 (édition 250 exemplaires)</br>
+Couleur racing green</br>
+Première main</br>
+</br>
+Équipement: </br>
+Koni sport réglable</br>
+Direction durcie</br>
+Parallélogramme de Watt</br>
+Changement de tous les Silentblocs en dur";
 $triumphHerald_description="Triumph Herald 1360 cabriolet en très bon état.</br>
                             Le plaisir du cabriolet avec 4 places.</br>
                             Nombreuses factures d'entretien depuis 1989.";

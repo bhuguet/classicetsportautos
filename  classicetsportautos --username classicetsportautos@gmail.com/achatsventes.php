@@ -45,8 +45,63 @@
 				<br/><br/>
 				<div class="col560">
 					<h1><?php echo $vente_title; ?></h1>
-                                        <hr/>   
+					<hr/>
                                         <?php include_once 'classes/Car.php'; ?>
+                                        <?php
+                                            $ferrariMondialT = new Car("mondial_extg.JPG", "Ferrari Mondial T");
+                                            $ferrariMondialT->setOtherPictures(array("mondial_int.jpg", "mondial_int2.JPG"));
+                                        ?>
+                                                <div class="vente-titre">
+                                                    <a rel="fmondial" href="<?php echo $ferrariMondialT->getImage("/img/ventes/FerrariMondialT/"); ?>" title="<?php echo $ferrariMondialT->getLabel(); ?>">
+                                                    <img class="pict" src="<?php echo $ferrariMondialT->getResizedImage("/img/ventes/FerrariMondialT/",78); ?>"/></a>
+                                                    <h2>Ferrari Mondial T</h2>                                                        
+                                                    <p><?php echo $prix; ?> <strong>38 000&euro;</strong></p>
+                                                    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
+						</div>
+						<div class="vente-col1">
+                                                        <p><?php echo $annee_modele; ?> <strong>1990</strong></p>
+						</div>
+						<div class="vente-col2">
+                                                    <?php
+                                                      foreach ($ferrariMondialT->getOtherPictures() as $picture) { ?>
+                                                        <a rel="fmondial" href="/img/ventes/FerrariMondialT/<?php echo $picture; ?>" title="<?php echo $ferrariMondialT->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $ferrariMondialT->getResizedImageForPicture("/img/ventes/FerrariMondialT/",20,$picture); ?>"/></a>
+                                                      <?php } ?>
+						<p>
+                                                    <?php echo $ferrariMondialT_description; ?>
+                                                </p>
+						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 20 Juin 2012.</p>
+						</div>
+						<div class="clearit"></div>       
+					<hr/>                                        
+                                        <?php
+                                            $xjsLeMans = new Car("jagxjs_ext.JPG", "Jaguar XJS V12 Le Mans");
+                                            $xjsLeMans->setOtherPictures(array("jagxjs_int.JPG", "jagxjs_moteur.JPG", "jagxjs_plaque.JPG"));
+                                        ?>
+                                                <div class="vente-titre">
+                                                    <a rel="xjs_lemans" href="<?php echo $xjsLeMans->getImage("/img/ventes/xjs_LeMans/"); ?>" title="<?php echo $xjsLeMans->getLabel(); ?>">
+                                                    <img class="pict" src="<?php echo $xjsLeMans->getResizedImage("/img/ventes/xjs_LeMans/",78); ?>"/></a>
+                                                    <h2>Jaguar XJS V12 Le Mans</h2>                                                        
+                                                    <p><?php echo $prix; ?> <strong>20 000&euro;</strong></p>
+                                                    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
+						</div>
+						<div class="vente-col1">
+                                                        <p><?php echo $annee_modele; ?> <strong>1991</strong></p>
+                                                        <p><?php echo $kilometrage; ?> <strong>88 000 KM</strong></p>
+						</div>
+						<div class="vente-col2">
+                                                    <?php
+                                                      foreach ($xjsLeMans->getOtherPictures() as $picture) { ?>
+                                                        <a rel="xjs_lemans" href="/img/ventes/xjs_LeMans/<?php echo $picture; ?>" title="<?php echo $xjsLeMans->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $xjsLeMans->getResizedImageForPicture("/img/ventes/xjs_LeMans/",20,$picture); ?>"/></a>
+                                                      <?php } ?>
+						<p>
+                                                    <?php echo $xjsLeMans_description; ?>
+                                                </p>
+						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 2 Septembre 2012.</p>
+						</div>
+						<div class="clearit"></div>                                        
+                                        <hr/>   
                                         <?php
                                             $triumph_herald = new Car("triumph_herald_2.jpg", "Triumph Herald 13/60 Cabriolet 1969");
                                             $triumph_herald->setOtherPictures(array("triumph_herald_1.jpg", "triumph_herald_3.jpg", "triumph_herald_4.jpg", "triumph_herald_5.jpg", 
