@@ -1,10 +1,8 @@
 <?php
 $evenements_title="Evènements";
-$evenements_first_bullet="<a href='http://www.rallye-des-soupapes.fr/'>Rallye des Soupapes</a> - Clermont-Ferrand les 2 et 3 Juin 2012";
-$evenements_second_bullet="<a href='http://www.auto-pedia.fr/vag-wintercab-2012/'>Bourse Expo à Jarrie</a> - 2 et 3 Juin 2012";
-$evenements_third_bullet="<a href='http://www.kiwanis-oyonnax.com/british-car-show'>British Car Show: la Lotus</a> - Nantua le 10 Juin 2012";
-$evenements_fourth_bullet="<a href='http://www.pmorganisation.fr/library/documents/clubs---web.pdf'>Grand Prix de l'Age d'Or</a> - Dijon-Prenois les 23 et 24 Juin 2012";
-$evenements_fifth_bullet="<a href='http://www.lemansclassic.com/'>Le Mans Classic 2012</a> - du 6 au 8 Juillet";
+$evenements_first_bullet="<a href='http://www.british-cars.ch/'>Swiss Classic British Car Meeting</a> - Morges le 6 Octobre 2012";
+$evenements_second_bullet="<a href='http://www.newsclassicracing.com/Trophees-Historiques-de-Bourgogne,3305'>Trophées Historiques de Bourgogne</a> - Circuit de Dijon-Prenois, les 6 et 7 Octobre 2012";
+$evenements_third_bullet="<a href='http://www.epoquauto.com/'>Epoqu' auto</a> - Eurexpo Lyon du 9 au 11 Novembre 2012";
 
 $horaires_ouverture_title="Horaires d'ouverture";
 $horaires_ouverture_jours="Du Lundi au Vendredi";

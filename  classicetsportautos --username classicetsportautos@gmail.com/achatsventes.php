@@ -47,6 +47,34 @@
 					<h1><?php echo $vente_title; ?></h1>
 					<hr/>
                                         <?php include_once 'classes/Car.php'; ?>
+                                                                                <?php
+                                            $daimlerV8 = new Car("daimlerV8_AV.JPG", "Daimler Super V8");
+                                            $daimlerV8->setOtherPictures(array("daimlerV8_D.JPG", "daimlerV8_G.JPG", "daimlerV8_int.JPG", "daimlerV8_intAR.JPG", "daimlerV8_intAV.JPG"));
+                                        ?>
+                                                <div class="vente-titre">
+                                                    <a rel="daimler_v8" href="<?php echo $daimlerV8->getImage("/img/ventes/DaimlerV8/"); ?>" title="<?php echo $daimlerV8->getLabel(); ?>">
+                                                    <img class="pict" src="<?php echo $daimlerV8->getResizedImage("/img/ventes/DaimlerV8/",78); ?>"/></a>
+                                                    <h2>Daimler Super V8</h2>                                                        
+                                                    <p><?php echo $prix; ?> <strong>16 000&euro;</strong></p>
+                                                    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
+						</div>
+						<div class="vente-col1">
+                                                        <p><?php echo $annee_modele; ?> <strong>1998</strong></p>
+                                                        <p><?php echo $kilometrage; ?> <strong>113 000 KM</strong></p>
+						</div>
+						<div class="vente-col2">
+                                                    <?php
+                                                      foreach ($daimlerV8->getOtherPictures() as $picture) { ?>
+                                                        <a rel="daimler_v8" href="/img/ventes/DaimlerV8/<?php echo $picture; ?>" title="<?php echo $daimlerV8->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $daimlerV8->getResizedImageForPicture("/img/ventes/DaimlerV8/",20,$picture); ?>"/></a>
+                                                      <?php } ?>
+						<p>
+                                                    <?php echo $daimlerV8_description; ?>
+                                                </p>
+						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 24 Septembre 2012.</p>
+						</div>
+						<div class="clearit"></div>       
+					<hr/>
                                         <?php
                                             $ferrariMondialT = new Car("mondial_extg.JPG", "Ferrari Mondial T");
                                             $ferrariMondialT->setOtherPictures(array("mondial_int.jpg", "mondial_int2.JPG"));
@@ -64,13 +92,13 @@
 						<div class="vente-col2">
                                                     <?php
                                                       foreach ($ferrariMondialT->getOtherPictures() as $picture) { ?>
-                                                        <a rel="fmondial" href="/img/ventes/FerrariMondialT/<?php echo $picture; ?>" title="<?php echo $ferrariMondialT->getLabel(); ?>">
-                                                        <img class="icone" src="<?php echo $ferrariMondialT->getResizedImageForPicture("/img/ventes/FerrariMondialT/",20,$picture); ?>"/></a>
+                                                        <a rel="fmondial" href="/img/ventes/FerrariMondialT/<?php echo $picture; ?>" title="<?php echo $daimlerV8->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $daimlerV8->getResizedImageForPicture("/img/ventes/FerrariMondialT/",20,$picture); ?>"/></a>
                                                       <?php } ?>
 						<p>
                                                     <?php echo $ferrariMondialT_description; ?>
                                                 </p>
-						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 20 Juin 2012.</p>
+						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 2 Septembre 2012.</p>
 						</div>
 						<div class="clearit"></div>       
 					<hr/>                                        

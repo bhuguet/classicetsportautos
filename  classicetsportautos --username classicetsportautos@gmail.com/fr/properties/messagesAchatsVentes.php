@@ -16,6 +16,12 @@ $date_publication="Publié le";
 $kilometrage="Kilométrage:";
 $vendue="VENDUE";
 
+$daimlerV8_description="Chassis long</br>
+Chaine Harman Kardon + TO + Table Picnic</br>
+Banquette AR chauffante</br>
+Historique complet + carnet d'entretien</br>
+Entretien à Lyon par l'atelier auto</br>
+Pneus AR + Batteries neufs";
 $ferrariMondialT_description="Cabriolet 2+2</br> 
 Moteur V8 3400, 320 CH</br>
 Intérieur cuir, Suspension active, Climatisation";

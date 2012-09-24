@@ -16,6 +16,12 @@ $date_publication="Published on";
 $kilometrage="Mileage:";
 $vendue="SOLD";
 
+$daimlerV8_description="Long frame</br>
+Harman Kardon chain + TO + Picnic Table</br>
+Rear seat heating</br>
+Complete history + maintenance booklet</br>
+Maintenance workshop done in Lyon by \"Atelier auto\"</br>
+New rear tires and batteries";
 $ferrariMondialT_description="2+2 Cabriolet </br>
 Engine: V8 3400, 320 CH</br>
 Leather interior, Active suspension, Air conditioning";
@@ -28,7 +34,7 @@ Equipment: </br>
    Koni sport</br>
    Drive hardened</br>
    Watt's parallelogram</br>
-   All silent blocked changed to hard ones";
+   Uprated silent blocks all around";
 $triumphHerald_description="Triumph Herald 1360 roadster, very good condition.</br>
                             The pleasure of a 4 seats roadster.</br>
                             Many maintenance bills since 1989.";
