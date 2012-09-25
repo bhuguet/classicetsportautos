@@ -131,35 +131,6 @@
 						<div class="clearit"></div>                                        
                                         <hr/>   
                                         <?php
-                                            $triumph_herald = new Car("triumph_herald_2.jpg", "Triumph Herald 13/60 Cabriolet 1969");
-                                            $triumph_herald->setOtherPictures(array("triumph_herald_1.jpg", "triumph_herald_3.jpg", "triumph_herald_4.jpg", "triumph_herald_5.jpg", 
-                                                                                   "triumph_herald_6.jpg", "triumph_herald_7.jpg", "triumph_herald_8.jpg", "triumph_herald_9.jpg"));
-                                        ?>
-                                                <div class="vente-titre">
-                                                    <a rel="triumph_herald" href="<?php echo $triumph_herald->getImage("/img/ventes/Triumph_Herald/"); ?>" title="<?php echo $triumph_herald->getLabel(); ?>">
-                                                    <img class="pict" src="<?php echo $triumph_herald->getResizedImage("/img/ventes/Triumph_Herald/",78); ?>"/></a>
-                                                    <h2>Triumph Herald 13/60 Cabriolet</h2>                                                        
-                                                    <p><?php echo $prix; ?> <strong>8 650&euro;</strong></p>
-                                                    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
-						</div>
-						<div class="vente-col1">
-                                                        <p><?php echo $annee_modele; ?> <strong>1969</strong></p>
-                                                        <p><?php echo $kilometrage; ?> <strong>84 520 KM</strong></p>
-						</div>
-						<div class="vente-col2">
-                                                    <?php
-                                                      foreach ($triumph_herald->getOtherPictures() as $picture) { ?>
-                                                        <a rel="triumph_herald" href="/img/ventes/Triumph_Herald/<?php echo $picture; ?>" title="<?php echo $triumph_herald->getLabel(); ?>">
-                                                        <img class="icone" src="<?php echo $triumph_herald->getResizedImageForPicture("/img/ventes/Triumph_Herald/",20,$picture); ?>"/></a>
-                                                      <?php } ?>
-						<p>
-                                                    <?php echo $triumphHerald_description; ?>
-                                                </p>
-						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 20 Juin 2012.</p>
-						</div>
-						<div class="clearit"></div>       
-					<hr/>
-                                        <?php
                                             $tr5 = new Car("TR5_left.JPG", "Triumph TR5 1968");
                                             $tr5->setOtherPictures(array("TR5_arriere.jpg", "TR5_ciel.JPG", "TR5_droite.jpg", "TR5_interieur.jpg", "TR5_moteur.jpg", "TR5_portiere.JPG"));
                                         ?>
@@ -276,6 +247,35 @@
 						</div>
 						<div class="clearit"></div>                                        
 					<hr/>
+                                        <?php
+                                            $triumph_herald = new Car("triumph_herald_2.jpg", "Triumph Herald 13/60 Cabriolet 1969");
+                                            $triumph_herald->setOtherPictures(array("triumph_herald_1.jpg", "triumph_herald_3.jpg", "triumph_herald_4.jpg", "triumph_herald_5.jpg", 
+                                                                                   "triumph_herald_6.jpg", "triumph_herald_7.jpg", "triumph_herald_8.jpg", "triumph_herald_9.jpg"));
+                                        ?>
+                                                <div class="vente-titre">
+                                                    <a rel="triumph_herald" href="<?php echo $triumph_herald->getImage("/img/ventes/Triumph_Herald/"); ?>" title="<?php echo $triumph_herald->getLabel(); ?>">
+                                                    <img class="pict" src="<?php echo $triumph_herald->getResizedImage("/img/ventes/Triumph_Herald/",78); ?>"/></a>
+                                                    <h2>Triumph Herald 13/60 Cabriolet <span style="padding-left: 15px; color:red; font-weight:bold;"><?php echo $vendue; ?></span></h2>                                                        
+                                                    <p><?php echo $prix; ?> <strong>8 650&euro;</strong></p>
+                                                    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
+						</div>
+						<div class="vente-col1">
+                                                        <p><?php echo $annee_modele; ?> <strong>1969</strong></p>
+                                                        <p><?php echo $kilometrage; ?> <strong>84 520 KM</strong></p>
+						</div>
+						<div class="vente-col2">
+                                                    <?php
+                                                      foreach ($triumph_herald->getOtherPictures() as $picture) { ?>
+                                                        <a rel="triumph_herald" href="/img/ventes/Triumph_Herald/<?php echo $picture; ?>" title="<?php echo $triumph_herald->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $triumph_herald->getResizedImageForPicture("/img/ventes/Triumph_Herald/",20,$picture); ?>"/></a>
+                                                      <?php } ?>
+						<p>
+                                                    <?php echo $triumphHerald_description; ?>
+                                                </p>
+						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 20 Juin 2012.</p>
+						</div>
+						<div class="clearit"></div>       
+					<hr/>                                        
                                         <?php
                                             $frogeye = new Car("Frog_AVD.jpg", "Austin Healey Sprite 1960 'Frogeye/Bugeye'");
                                             $frogeye->setOtherPictures(array("Frog_AVG.jpg", "Frog_ARD.jpg", "Frog_interieur.jpg", "Frog_moteur.jpg"));
