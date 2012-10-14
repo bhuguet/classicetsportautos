@@ -45,9 +45,39 @@
 				<br/><br/>
 				<div class="col560">
 					<h1><?php echo $vente_title; ?></h1>
-					<hr/>
                                         <?php include_once 'classes/Car.php'; ?>
-                                                                                <?php
+					<hr/>                                        
+                                        <?php
+                                            $mercedes230CE = new Car("mercedes230ce_AVD.JPG", "Mercedes 230 CE 1986");
+                                            $mercedes230CE->setOtherPictures(array("mercedes230ce_AVG.JPG", "mercedes230ce_G.JPG", "mercedes230ce_AR.JPG", "mercedes230ce_int.JPG",
+                                                "mercedes230ce_int2.JPG", "mercedes230ce_int3.JPG", "mercedes230ce_moteur.JPG", "mercedes230ce_moteur2.JPG", "mercedes230ce_dessous1.JPG",
+                                                "mercedes230ce_dessous2.JPG", "mercedes230ce_dessous3.JPG", "mercedes230ce_dessous4.JPG"));
+                                        ?>
+                                                <div class="vente-titre">
+                                                    <a rel="mercedes230ce" href="<?php echo $mercedes230CE->getImage("/img/ventes/Mercedes_230CE/"); ?>" title="<?php echo $mercedes230CE->getLabel(); ?>">
+                                                    <img class="pict" src="<?php echo $mercedes230CE->getResizedImage("/img/ventes/Mercedes_230CE/",78); ?>"/></a>
+                                                    <h2>Mercedes 230 CE</h2>                                                        
+                                                    <p><?php echo $prix; ?> <strong>3 900&euro;</strong></p>
+                                                    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
+						</div>
+						<div class="vente-col1">
+                                                        <p><?php echo $annee_modele; ?> <strong>1986</strong></p>
+                                                        <p><?php echo $kilometrage; ?> <strong>278 000 KM</strong></p>
+						</div>
+						<div class="vente-col2">
+                                                    <?php
+                                                      foreach ($mercedes230CE->getOtherPictures() as $picture) { ?>
+                                                        <a rel="mercedes230ce" href="/img/ventes/Mercedes_230CE/<?php echo $picture; ?>" title="<?php echo $mercedes230CE->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $mercedes230CE->getResizedImageForPicture("/img/ventes/Mercedes_230CE/",20,$picture); ?>"/></a>
+                                                      <?php } ?>
+						<p>
+                                                    <?php echo $mercedes230CE_description; ?>
+                                                </p>
+						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 14 Octobre 2012.</p>
+						</div>
+						<div class="clearit"></div>                                        
+					<hr/>
+                                        <?php
                                             $daimlerV8 = new Car("daimlerV8_AV.JPG", "Daimler Super V8");
                                             $daimlerV8->setOtherPictures(array("daimlerV8_D.JPG", "daimlerV8_G.JPG", "daimlerV8_int.JPG", "daimlerV8_intAR.JPG", "daimlerV8_intAV.JPG"));
                                         ?>

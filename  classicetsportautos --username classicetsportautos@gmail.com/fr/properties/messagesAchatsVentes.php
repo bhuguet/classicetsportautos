@@ -16,6 +16,7 @@ $date_publication="Publié le";
 $kilometrage="Kilométrage:";
 $vendue="VENDUE";
 
+$mercedes230CE_description="Belle Mercedes 230CE couleur Bordeaux. Fonctionne très bien,</br>silencieuse. Pneus neufs.</br>Pas de corrosion";
 $daimlerV8_description="Chassis long</br>
 Chaine Harman Kardon + TO + Table Picnic</br>
 Banquette AR chauffante</br>
