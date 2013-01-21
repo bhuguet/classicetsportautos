@@ -1,8 +1,11 @@
 <?php
 $evenements_title="Evènements";
-$evenements_first_bullet="<a href='http://www.british-cars.ch/'>Swiss Classic British Car Meeting</a> - Morges le 6 Octobre 2012";
-$evenements_second_bullet="<a href='http://www.newsclassicracing.com/Trophees-Historiques-de-Bourgogne,3305'>Trophées Historiques de Bourgogne</a> - Circuit de Dijon-Prenois, les 6 et 7 Octobre 2012";
-$evenements_third_bullet="<a href='http://www.epoquauto.com/'>Epoqu' auto</a> - Eurexpo Lyon du 9 au 11 Novembre 2012";
+$evenements_first_bullet="<a href='http://boursedevif.free.fr/'>Bourse de Vif</a> - 26 et 27 Janvier 2013";
+$evenements_second_bullet="<a href='http://www.classic-days.fr/PAGES/accueil.php'>Classic Days</a> à Magny-Cours, les 4 et 5 Mai 2013";
+$evenements_third_bullet="<a href='http://www.1000miglia.eu/index-en.php'>1000 Miglia 2013</a> (Italie), du 16 au 19 Mai 2013";
+$evenements_fourth_bullet="<a href='http://www.passionautomobile.com/2013/uriage-cabriolet-classic-2013-6335.html'>Cabriolet Classic, les 50 ans de la Porsche 911</a> - Uriage le 26 Mai 2013";
+$evenements_fifth_bullet="<a href='http://www.auto-pedia.fr/nantua/'>British Car Show, Aston Martin en Guest Star</a> - Nantua, le 9 Juin 2013";
+$evenements_sixth_bullet="<a href='http://www.pmorganisation.fr/fr/evenements/gpao.html'>Grand Prix de l'Age d'Or</a> - Dijon Prenois, les 15 et 16 Juin 2013";
 
 $horaires_ouverture_title="Horaires d'ouverture";
 $horaires_ouverture_jours="Du Lundi au Vendredi";
