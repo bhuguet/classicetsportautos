@@ -16,6 +16,7 @@ $date_publication="Published on";
 $kilometrage="Mileage:";
 $vendue="SOLD";
 
+$piecesHeraldSpitfire_description="Triumph Herald / Spitfire parts for sale in lot or unit. </br>Rebuilt Spitfire Mark 3 engine. </br>€ 1200 to discuss.";
 $mercedes230CE_description="Beautiful burgundy Mercedes 230CE. Works very well,</br>silent. New tires.</br>No corrosion";
 $daimlerV8_description="Long frame</br>
 Harman Kardon chain + TO + Picnic Table</br>

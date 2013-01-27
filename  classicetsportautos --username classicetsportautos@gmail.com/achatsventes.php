@@ -48,6 +48,35 @@
                                         <?php include_once 'classes/Car.php'; ?>
 					<hr/>                                        
                                         <?php
+                                        $pieces = array();
+                                        for ($index = 1; $index < 25; $index++) {
+                                            $pieces[] = "piecesHeraldSpitfire$index.jpg";
+                                        }
+                                            $piecesHeraldSpitfire = new Car("piecesHeraldSpitfire1.jpg", "Pièces Herald/ Spitfire");
+                                            $piecesHeraldSpitfire->setOtherPictures($pieces);
+                                        ?>
+                                                <div class="vente-titre">
+                                                    <a rel="pieces_herald_spitfire" href="<?php echo $piecesHeraldSpitfire->getImage("/img/ventes/PiecesHeraldSpitfire/"); ?>" title="<?php echo $piecesHeraldSpitfire->getLabel(); ?>">
+                                                    <img class="pict" src="<?php echo $piecesHeraldSpitfire->getResizedImage("/img/ventes/PiecesHeraldSpitfire/",78); ?>"/></a>
+                                                    <h2>Pièces Herald/ Spitfire</h2>                                                        
+                                                    <p><?php echo $prix; ?> <strong>1 200&euro;</strong></p>
+						</div>
+						<div class="vente-col1">
+						</div>
+						<div class="vente-col2">
+                                                    <?php
+                                                      foreach ($piecesHeraldSpitfire->getOtherPictures() as $picture) { ?>
+                                                        <a rel="pieces_herald_spitfire" href="/img/ventes/PiecesHeraldSpitfire/<?php echo $picture; ?>" title="<?php echo $piecesHeraldSpitfire->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $piecesHeraldSpitfire->getResizedImageForPicture("/img/ventes/PiecesHeraldSpitfire/",20,$picture); ?>"/></a>
+                                                      <?php } ?>
+						<p>
+                                                    <?php echo $piecesHeraldSpitfire_description; ?>
+                                                </p>
+						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 27 Janvier 2013.</p>
+						</div>
+						<div class="clearit"></div>                                          
+					<hr/>                                        
+                                        <?php
                                             $mercedes230CE = new Car("mercedes230ce_AVD.JPG", "Mercedes 230 CE 1986");
                                             $mercedes230CE->setOtherPictures(array("mercedes230ce_AVG.JPG", "mercedes230ce_G.JPG", "mercedes230ce_AR.JPG", "mercedes230ce_int.JPG",
                                                 "mercedes230ce_int2.JPG", "mercedes230ce_int3.JPG", "mercedes230ce_moteur.JPG", "mercedes230ce_moteur2.JPG", "mercedes230ce_dessous1.JPG",

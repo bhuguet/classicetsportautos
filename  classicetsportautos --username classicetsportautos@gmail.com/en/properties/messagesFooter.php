@@ -3,7 +3,7 @@ $evenements_title="Events";
 $evenements_first_bullet="<a href='http://boursedevif.free.fr/'>Bourse de Vif</a> - 26th and 27th of January 2013";
 $evenements_second_bullet="<a href='http://www.classic-days.fr/PAGES/accueil.php'>Classic Days</a> - Magny-Cours Circuit, 4th and 5th of May 2013";
 $evenements_third_bullet="<a href='http://www.1000miglia.eu/index-en.php'>1000 Miglia 2013</a> (Italy), 16th to 19th of May 2013";
-$evenements_fourth_bullet="<a href='http://www.passionautomobile.com/2013/uriage-cabriolet-classic-2013-6335.html'>Cabriolet Classic, Porsche 911 50th birthday</a> - Uriage, 26th of May 2013";
+$evenements_fourth_bullet="<a href='http://www.auto-pedia.fr/uriage-cabriolet-classic/'>Cabriolet Classic, Porsche 911 50th birthday</a> - Uriage, 26th of May 2013";
 $evenements_fifth_bullet="<a href='http://www.auto-pedia.fr/nantua/'>British Car Show, Aston Martin Guest Star</a> - Nantua, 9th of June 2013";
 $evenements_sixth_bullet="<a href='http://www.pmorganisation.fr/fr/evenements/gpao.html'>Grand Prix de l'Age d'Or</a> - 15th and 16th of June 2013 at the Dijon-Prenois Circuit";
 

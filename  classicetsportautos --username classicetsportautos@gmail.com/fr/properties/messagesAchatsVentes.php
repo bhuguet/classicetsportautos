@@ -16,6 +16,7 @@ $date_publication="Publié le";
 $kilometrage="Kilométrage:";
 $vendue="VENDUE";
 
+$piecesHeraldSpitfire_description="Lot de pièces Triumph Hérald/Spitfire, à vendre en lot ou à l'unité.</br>Moteur Spitfire Mark 3 refait.</br>Ensemble pour 1200€ à débattre.";
 $mercedes230CE_description="Belle Mercedes 230CE couleur Bordeaux. Fonctionne très bien,</br>silencieuse. Pneus neufs.</br>Pas de corrosion";
 $daimlerV8_description="Chassis long</br>
 Chaine Harman Kardon + TO + Table Picnic</br>

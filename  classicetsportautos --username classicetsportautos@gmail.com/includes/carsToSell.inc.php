@@ -8,7 +8,7 @@
 <script type="text/javascript">
     $(document).ready(function() {
         <?php
-        $itemsToSell = array('mercedes230ce','daimler_v8','fmondial', 'xjs_lemans', 'triumph_herald','frogeye','corvette','tr5', 'xk120', 'daimler', '190sl', 'dynolite_apg_30', 'dynolite_hypoid', 'dynolite_gearoil_40');
+        $itemsToSell = array('pieces_herald_spitfire', 'mercedes230ce','daimler_v8','fmondial', 'xjs_lemans', 'triumph_herald','frogeye','corvette','tr5', 'xk120', 'daimler', '190sl', 'dynolite_apg_30', 'dynolite_hypoid', 'dynolite_gearoil_40');
         foreach ($itemsToSell as $item) {
         ?>
                     $("a[rel=<?php echo $item; ?>]").fancybox({
