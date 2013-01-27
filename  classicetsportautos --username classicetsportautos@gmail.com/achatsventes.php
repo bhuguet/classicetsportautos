@@ -457,13 +457,13 @@
 				</div>
 			</div>
 			<div class="achats">
-				<div class="col260_3">
-					<h1><?php echo $achat_title; ?></h1>
+				<!--div class="col260_3">
+					<h1><?php //echo $achat_title; ?></h1>
 					<hr/>
 						<img class="pict" src="../img/ventes/tr3Epave.jpg" alt="" />
 						<h2>Triumph TR3</h2>
 						<p>
-                                                    <?php echo $cherche_tr3; ?>
+                                                    <?php //echo $cherche_tr3; ?>
 						</p>
 						<div class="clearit"></div>
 					<!--hr/>
@@ -472,8 +472,8 @@
 						<p>
 							Pour d&eacute;posez votre annonce, contactez-nous !
 						</p>
-						<a class="plus" href="default.htm">D&eacute;tails >></a-->
-				</div>
+						<a class="plus" href="default.htm">D&eacute;tails >></a>
+				</div-->
 				<div class="clearit"></div>
 			</div>
 		</div>
