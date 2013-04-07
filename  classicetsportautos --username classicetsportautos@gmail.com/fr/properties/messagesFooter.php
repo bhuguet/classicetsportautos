@@ -1,6 +1,6 @@
 <?php
 $evenements_title="Evènements";
-$evenements_first_bullet="<a href='http://boursedevif.free.fr/'>Bourse de Vif</a> - 26 et 27 Janvier 2013";
+$evenements_first_bullet="<a href='http://www.avablb.com/'>32ème rassemblement de véhicules anciens au Bourget du Lac</a> - 20 et 21 Avril 2013";
 $evenements_second_bullet="<a href='http://www.classic-days.fr/PAGES/accueil.php'>Classic Days</a> à Magny-Cours, les 4 et 5 Mai 2013";
 $evenements_third_bullet="<a href='http://www.1000miglia.eu/index-en.php'>1000 Miglia 2013</a> (Italie), du 16 au 19 Mai 2013";
 $evenements_fourth_bullet="<a href='http://www.auto-pedia.fr/uriage-cabriolet-classic/'>Cabriolet Classic, les 50 ans de la Porsche 911</a> - Uriage le 26 Mai 2013";
