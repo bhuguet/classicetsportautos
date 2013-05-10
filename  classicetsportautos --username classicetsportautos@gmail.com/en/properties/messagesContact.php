@@ -13,6 +13,6 @@ $contact_phone="<b>Tél</b> : +33 (0)4.57.93.38.57";
 
 $adresse_title="Address";
 $adresse_nom="Classic et Sport Autos";
-$adresse_rue="20 Rue du Beal";
+$adresse_rue="10 rue du Pré Blanchet";
 $adresse_ville="38400 Saint-Martin-d'Hères";
 $adresse_pays="France";

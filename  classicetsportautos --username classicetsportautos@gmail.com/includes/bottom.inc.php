@@ -3,12 +3,12 @@
     <div class="col560">
         <h2><?php echo $evenements_title; ?></h2>
         <p>
-        <li><?php echo $evenements_first_bullet; ?></li>
-        <li><?php echo $evenements_second_bullet; ?></li>
-        <li><?php echo $evenements_third_bullet; ?></li>
-        <li><?php echo $evenements_fourth_bullet; ?></li>
-        <li><?php echo $evenements_fifth_bullet; ?></li>
-        <li><?php echo $evenements_sixth_bullet; ?></li>
+        <?php if (isset($evenements_first_bullet)) echo '<li>'.$evenements_first_bullet.'</li>'; ?>
+        <?php if (isset($evenements_second_bullet)) echo '<li>'.$evenements_second_bullet.'</li>'; ?>
+        <?php if (isset($evenements_third_bullet)) echo '<li>'.$evenements_third_bullet.'</li>'; ?>
+        <?php if (isset($evenements_fourth_bullet)) echo '<li>'.$evenements_fourth_bullet.'</li>'; ?>
+        <?php if (isset($evenements_fifth_bullet)) echo '<li>'.$evenements_fifth_bullet.'</li>'; ?>
+        <?php if (isset($evenements_sixth_bullet)) echo '<li>'.$evenements_sixth_bullet.'</li>'; ?>
         </p>
     </div>
     <div class="col260_3">
