@@ -1,9 +1,9 @@
 <?php
 $evenements_title="Evènements";
-$evenements_first_bullet="<a href='http://www.1000miglia.eu/index-en.php'>1000 Miglia 2013</a> (Italie), du 16 au 19 Mai 2013";
-$evenements_second_bullet="<a href='http://www.auto-pedia.fr/uriage-cabriolet-classic/'>Cabriolet Classic, les 50 ans de la Porsche 911</a> - Uriage le 26 Mai 2013";
-$evenements_third_bullet="<a href='http://www.auto-pedia.fr/nantua/'>British Car Show, Aston Martin en Guest Star</a> - Nantua, le 9 Juin 2013";
-$evenements_fourth_bullet="<a href='http://www.pmorganisation.fr/fr/evenements/gpao.html'>Grand Prix de l'Age d'Or</a> - Dijon Prenois, les 15 et 16 Juin 2013";
+$evenements_2="<a href='http://www.auto-pedia.fr/uriage-cabriolet-classic/'>Cabriolet Classic, les 50 ans de la Porsche 911</a> - Uriage le 26 Mai 2013";
+$evenements_3="<a href='http://www.auto-pedia.fr/nantua/'>British Car Show, Aston Martin en Guest Star</a> - Nantua, le 9 Juin 2013";
+$evenements_4="<a href='http://www.pmorganisation.fr/fr/evenements/gpao.html'>Grand Prix de l'Age d'Or</a> - Dijon Prenois, les 15 et 16 Juin 2013";
+$evenements_5="<a href='http://www.auto-pedia.fr/autoretro-chambery/'>Bourse Auto Rétro Chambéry</a> - Samedi 30 novembre et Dimanche 1er décembre 2013";
 
 $horaires_ouverture_title="Horaires d'ouverture";
 $horaires_ouverture_jours="Du Lundi au Vendredi";

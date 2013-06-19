@@ -38,6 +38,13 @@
 			</div>
 
 			<div class="col260">
+                            <h1><?php echo $msg_changement_adresse; ?></h1>
+                                <p><?php echo $adresse_nom; ?></p>
+                                <p><?php echo $adresse_rue; ?></p>
+                                <p><?php echo $adresse_ville; ?></p>
+                                <a class="plus" href="<?php echo $menu_contact_file; ?>" rel="nofollow"><?php echo $voir_le_plan; ?></a>
+                                <br/><br/>
+                            
 				<h1><?php echo $nos_prestations_title; ?></h1>
 				<p>
                                     <?php echo $nos_prestations_paragraphe_1; ?>
@@ -45,15 +52,15 @@
 				<p>
                                     <?php echo $nos_prestations_paragraphe_2; ?>
 				</p>
-				<a class="plus" href="<?php echo $menu_engagements_file; ?>"><?php echo $lire_la_suite; ?></a>                            
+				<a class="plus" href="<?php echo $menu_engagements_file; ?>" rel="nofollow"><?php echo $lire_la_suite; ?></a>                            
     <br/><br/>
                         <?php include 'includes/atelierWidget.inc.php'; ?>
                         </div>
-                                
+                              
 			<div>
                             <div id="fb-root"></div>
                             <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-                            <fb:like-box href="https://www.facebook.com/pages/Classic-Sport-Autos/124036417669507" width="560" show_faces="true" stream="true" header="false"></fb:like-box>
+                            <fb:like-box href="https://www.facebook.com/pages/Classic-Sport-Autos/124036417669507" width="560" show_faces="false" height="560" stream="true" header="false"></fb:like-box>
 			</div>
 
 			<div class="clearit"></div>

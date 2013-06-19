@@ -14,3 +14,6 @@ $lire_la_suite="Follow-up >>";
 
 $latelier_title="Workshop";
 $voir_la_suite="Follow-up >>";
+$voir_le_plan="See Map >>";
+
+$msg_changement_adresse="<span style='color:red'>Attention, Classic & Sport Autos's address has changed (200m from the old location)</span>";

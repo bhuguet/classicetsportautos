@@ -24,5 +24,5 @@ $visitesCars = array($xk140, $amilcar, $triumphTR3);
     <?php } ?>
 
     <p>
-	<a class="plus" href="<?php echo $menu_atelier_file; ?>"><?php echo $voir_la_suite; ?></a>
+	<a class="plus" href="<?php echo $menu_atelier_file; ?>" rel="nofollow"><?php echo $voir_la_suite; ?></a>
     </p>

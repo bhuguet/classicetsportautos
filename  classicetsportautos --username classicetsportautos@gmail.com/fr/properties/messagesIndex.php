@@ -20,3 +20,6 @@ $lire_la_suite="Lire la suite >>";
 
 $latelier_title="L'atelier";
 $voir_la_suite="Voir la suite >>";
+$voir_le_plan="Voir le plan >>";
+
+$msg_changement_adresse="<span style='color:red'>Attention, Classic & Sport Autos a changé d'adresse (à 200m de l'ancien garage)</span>";
