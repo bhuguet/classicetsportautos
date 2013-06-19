@@ -53,7 +53,7 @@
 			<div>
                             <div id="fb-root"></div>
                             <script src="http://connect.facebook.net/en_US/all.js#xfbml=1"></script>
-                            <fb:like-box href="https://www.facebook.com/pages/Classic-Sport-Autos/124036417669507" width="560" show_faces="false" stream="true" header="false"></fb:like-box>
+                            <fb:like-box href="https://www.facebook.com/pages/Classic-Sport-Autos/124036417669507" width="560" show_faces="true" stream="true" header="false"></fb:like-box>
 			</div>
 
 			<div class="clearit"></div>
