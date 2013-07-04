@@ -1,9 +1,11 @@
 <?php
 $evenements_title="Events";
-$evenements_2="<a href='http://www.auto-pedia.fr/uriage-cabriolet-classic/'>Cabriolet Classic, Porsche 911 50th birthday</a> - Uriage, 26th of May 2013";
-$evenements_3="<a href='http://www.auto-pedia.fr/nantua/'>British Car Show, Aston Martin Guest Star</a> - Nantua, 9th of June 2013";
-$evenements_4="<a href='http://www.pmorganisation.fr/fr/evenements/gpao.html'>Grand Prix de l'Age d'Or</a> - 15th and 16th of June 2013 at the Dijon-Prenois Circuit";
-$evenements_5="<a href='http://www.auto-pedia.fr/autoretro-chambery/'>Bourse Auto Rétro Chambéry</a> - 30th of November and 1st of December 2013";
+$evenements_1="<a href='http://www.lmstory.com/'>Le Mans Story</a> - Bugatti Circuit, Le Mans, 6th and 7th of July 2013";
+$evenements_2="<a href='http://www.nostalgie.fr/nostalgie-regions-423/est-454/article/299774-dijon-motors-cup.html'>Dijon Motors Cup</a> - Dijon Prénois Circuit, 12th and 13th of July 2013";
+$evenements_3="<a href='http://www.lva-auto.fr/agenda.detail.php?id=147556'>Salon Auto-Moto Rétro Avignon</a> - Avignon, 7th and 8th of September 2013";
+$evenements_4="<a href='http://www.goodwood.co.uk/revival/welcome.aspx'>Goodwood Revival</a> - Goodwood, 13-15 September 2013";
+$evenements_5="<a href='http://www.epoquauto.com/PagesFront/AccueilFront.php?Langue=2'>Epoq'Auto</a> - Eurexpo Lyon, 8-10 November 2013";
+//$evenements_6="<a href='http://www.auto-pedia.fr/autoretro-chambery/'>Bourse Auto Rétro Chambéry</a> - 30th of November and 1st of December 2013";
 
 $horaires_ouverture_title="Opening hours";
 $horaires_ouverture_jours="Monday through Friday";
