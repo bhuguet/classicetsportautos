@@ -3,12 +3,16 @@
     <div class="col560">
         <h2><?php echo $evenements_title; ?></h2>
         <p>
-        <?php if (isset($evenements_1)) echo '<li>'.$evenements_1.'</li>'; ?>
-        <?php if (isset($evenements_2)) echo '<li>'.$evenements_2.'</li>'; ?>
-        <?php if (isset($evenements_3)) echo '<li>'.$evenements_3.'</li>'; ?>
-        <?php if (isset($evenements_4)) echo '<li>'.$evenements_4.'</li>'; ?>
-        <?php if (isset($evenements_5)) echo '<li>'.$evenements_5.'</li>'; ?>
-        <?php if (isset($evenements_6)) echo '<li>'.$evenements_6.'</li>'; ?>
+            <?php if (isset($evenements_1)) echo '<li>'.$evenements_1.'</li>'; ?>
+            <?php if (isset($evenements_2)) echo '<li>'.$evenements_2.'</li>'; ?>
+            <?php if (isset($evenements_3)) echo '<li>'.$evenements_3.'</li>'; ?>
+            <?php if (isset($evenements_4)) echo '<li>'.$evenements_4.'</li>'; ?>
+            <?php if (isset($evenements_5)) echo '<li>'.$evenements_5.'</li>'; ?>
+            <?php if (isset($evenements_6)) echo '<li>'.$evenements_6.'</li>'; ?>
+            <?php if (isset($evenements_7)) echo '<li>'.$evenements_7.'</li>'; ?>
+            <?php if (isset($evenements_8)) echo '<li>'.$evenements_8.'</li>'; ?>
+            <?php if (isset($evenements_9)) echo '<li>'.$evenements_9.'</li>'; ?>
+            <?php if (isset($evenements_10)) echo '<li>'.$evenements_10.'</li>'; ?>
         </p>
     </div>
     <div class="col260_3">

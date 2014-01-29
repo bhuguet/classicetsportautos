@@ -1,11 +1,15 @@
 <?php
 $evenements_title="Evènements";
-$evenements_1="<a href='http://www.lmstory.com/'>Le Mans Story</a> - Circuit Bugatti, Le Mans, les 6 et 7 Juillet 2013";
-$evenements_2="<a href='http://www.nostalgie.fr/nostalgie-regions-423/est-454/article/299774-dijon-motors-cup.html'>Dijon Motors Cup</a> - Circuit de Dijon Prénois, les 12 et 13 Juillet 2013";
-$evenements_3="<a href='http://www.lva-auto.fr/agenda.detail.php?id=147556'>Salon Auto-Moto Rétro Avignon</a> - Avignon, les 7 et 8 Septembre 2013";
-$evenements_4="<a href='http://www.goodwood.co.uk/revival/welcome.aspx'>Goodwood Revival</a> - Goodwood, du 13 au 15 Septembre 2013";
-$evenements_5="<a href='http://www.epoquauto.com/PagesFront/AccueilFront.php'>Epoq'Auto</a> - Eurexpo Lyon, du 8 au 10 Novembre 2013";
-//$evenements_6="<a href='http://www.auto-pedia.fr/autoretro-chambery/'>Bourse Auto Rétro Chambéry</a> - 30th of November and 1st of December 2013";
+$evenements_1="<a href='http://newsdanciennes.com/tag/salon-voitures-anciennes-turin/'>32e Automotoretro de Turin</a> - au Lingotto Fiere de Turin, du 7 au 9 Février 2014";
+$evenements_2="<a href='http://www.retromobile.com/'>Retromobile</a> - Paris Expo porte de Versailles du 5 au 9 Février 2014";
+$evenements_3="<a href='http://www.avignon-motor-festival.com/'>Avignon Motor Festival</a> - Avignon, du 21 au 23 Mars 2014";
+$evenements_4="<a href='http://news.autoplus.fr/news/1476749/Tour-Auto-2014-Parcours-Itin%C3%A9raire-BMW-Mini'>Tour Auto 2014</a> - Circuit de Bresse le 10 Avril, Aix-les-Bains/Valence le 11 Avril";
+$evenements_5="<a href='http://www.lebourgetdulac.fr/evenement.php?page=EVENEMENT&DateJour=1397253600'>Rassemblement de véhicules anciens</a> - Bourget du Lac, les 12 et 13 Avril 2014";
+$evenements_6="<a href='http://www.classic-days.fr/PAGES/PROGRAMME/programme.php'>Classic Days</a> - Magny-Cours, les 3 et 4 Mai 2014";
+$evenements_7="<a href='http://www.auto-pedia.fr/uriage-cabriolet-classic/'>Uriage Cabriolet Classic</a> - Uriage-Les-Bains le 18 Mai 2014";
+$evenements_8="<a href='http://www.passionautomobile.com/2014/british-car-show-2014-a-nantua-7347.html'>British Car Show</a> - Nantua, le 8 Juin 2014";
+$evenements_9="<a href='http://peterauto.peter.fr/fr/evenement/presentation/id/40/evenement/Grand+Prix+de+l'Age+d'Or'>Grand Prix de l'Age d'Or</a> - Dijon-Prenois du 6 au 8 Juin 2014";
+$evenements_10="<a href='http://www.lemansclassic.com/fr/'>Le Mans Classic</a> - Grand Circuit du Mans, du 4 au 6 Juillet 2014";
 
 $horaires_ouverture_title="Horaires d'ouverture";
 $horaires_ouverture_jours="Du Lundi au Vendredi";
