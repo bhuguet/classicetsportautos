@@ -1,8 +1,5 @@
 <?php
 $evenements_title="Events";
-$evenements_1="<a href='http://newsdanciennes.com/tag/salon-voitures-anciennes-turin/'>32e Automotoretro de Turin</a> - au Lingotto Fiere de Turin, du 7 au 9 Février 2014";
-$evenements_2="<a href='http://www.retromobile.com/'>Retromobile</a> - Paris Expo porte de Versailles du 5 au 9 Février 2014";
-$evenements_3="<a href='http://www.avignon-motor-festival.com/'>Avignon Motor Festival</a> - Avignon, du 21 au 23 Mars 2014";
 $evenements_4="<a href='http://news.autoplus.fr/news/1476749/Tour-Auto-2014-Parcours-Itin%C3%A9raire-BMW-Mini'>Tour Auto 2014</a> - Circuit de Bresse le 10 Avril, Aix-les-Bains/Valence le 11 Avril";
 $evenements_5="<a href='http://www.lebourgetdulac.fr/evenement.php?page=EVENEMENT&DateJour=1397253600'>Rassemblement de véhicules anciens</a> - Bourget du Lac, les 12 et 13 Avril 2014";
 $evenements_6="<a href='http://www.classic-days.fr/PAGES/PROGRAMME/programme.php'>Classic Days</a> - Magny-Cours, les 3 et 4 Mai 2014";
