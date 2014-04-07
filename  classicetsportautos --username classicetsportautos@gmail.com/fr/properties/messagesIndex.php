@@ -6,8 +6,8 @@ $index_description="Classic & Sport Autos entretien et la réparation de voiture
 $index_keywords="entretien autos anciennes, répare et prépare votre  voiture ancienne, réparation, préparation, anglaises, italiennes";
 $index_title="Classic & Sport Autos - Entretien et Réparation de Voitures de Collection";
 
-$img_title_panorama_new_year_2012="Bonne année 2012";
-$img_title_panorama_first_birthday="1er anniversaire de Classic & Sport Autos";
+$img_title_panorama_new_year_2012="";
+$img_title_panorama_first_birthday="";
 
 $nos_prestations_title="Nos prestations";
 $nos_prestations_paragraphe_1="Nos activités principales à Classic & Sport Autos sont
@@ -21,5 +21,3 @@ $lire_la_suite="Lire la suite >>";
 $latelier_title="L'atelier";
 $voir_la_suite="Voir la suite >>";
 $voir_le_plan="Voir le plan >>";
-
-$msg_changement_adresse="<span style='color:red'>Attention, Classic & Sport Autos a changé d'adresse (à 200m de l'ancien garage)</span>";

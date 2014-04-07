@@ -31,18 +31,17 @@
 				<ul class="slideshow">
                                     <li class="show"><a href="#"><img src="../img/slideShowTop/slide1.jpg" width="858" height="250" title="<?php echo $img_title_panorama_slide1; ?>" alt=""/></a></li>
                                     <li><a href="#"><img src="../img/slideShowTop/slide2.jpg" width="858" height="250" title="<?php echo $img_title_panorama_slide2; ?>" alt=""/></a></li>
-                                    <!--li><a href="#"><img src="../img/slideShowTop/bandeauDevantGarage.jpg" width="858" height="250" title="" alt=""/></a></li-->
 				</ul>
 
 				</div>
 			</div>
 
 			<div class="col260">
-                            <h1><?php echo $msg_changement_adresse; ?></h1>
                                 <p><?php echo $adresse_nom; ?></p>
                                 <p><?php echo $adresse_rue; ?></p>
                                 <p><?php echo $adresse_ville; ?></p>
                                 <a class="plus" href="<?php echo $menu_contact_file; ?>" rel="nofollow"><?php echo $voir_le_plan; ?></a>
+                                <br/><br/>
                                 <br/><br/>
                             
 				<h1><?php echo $nos_prestations_title; ?></h1>
@@ -53,7 +52,7 @@
                                     <?php echo $nos_prestations_paragraphe_2; ?>
 				</p>
 				<a class="plus" href="<?php echo $menu_engagements_file; ?>" rel="nofollow"><?php echo $lire_la_suite; ?></a>                            
-    <br/><br/>
+    <br/><br/><br/>
                         <?php include 'includes/atelierWidget.inc.php'; ?>
                         </div>
                               
