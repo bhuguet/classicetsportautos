@@ -45,36 +45,7 @@
 				<br/><br/>
 				<div class="col560">
 					<h1><?php echo $vente_title; ?></h1>
-                                        <?php include_once 'classes/Car.php'; ?>
-					<hr/>                                        
-                                        <?php
-                                        $pieces = array();
-                                        for ($index = 1; $index < 25; $index++) {
-                                            $pieces[] = "piecesHeraldSpitfire$index.jpg";
-                                        }
-                                            $piecesHeraldSpitfire = new Car("piecesHeraldSpitfire1.jpg", "Pièces Herald/ Spitfire");
-                                            $piecesHeraldSpitfire->setOtherPictures($pieces);
-                                        ?>
-                                                <div class="vente-titre">
-                                                    <a rel="pieces_herald_spitfire" href="<?php echo $piecesHeraldSpitfire->getImage("/img/ventes/PiecesHeraldSpitfire/"); ?>" title="<?php echo $piecesHeraldSpitfire->getLabel(); ?>">
-                                                    <img class="pict" src="<?php echo $piecesHeraldSpitfire->getResizedImage("/img/ventes/PiecesHeraldSpitfire/",78); ?>"/></a>
-                                                    <h2>Pièces Herald/ Spitfire</h2>                                                        
-                                                    <p><?php echo $prix; ?> <strong>1 200&euro;</strong></p>
-						</div>
-						<div class="vente-col1">
-						</div>
-						<div class="vente-col2">
-                                                    <?php
-                                                      foreach ($piecesHeraldSpitfire->getOtherPictures() as $picture) { ?>
-                                                        <a rel="pieces_herald_spitfire" href="/img/ventes/PiecesHeraldSpitfire/<?php echo $picture; ?>" title="<?php echo $piecesHeraldSpitfire->getLabel(); ?>">
-                                                        <img class="icone" src="<?php echo $piecesHeraldSpitfire->getResizedImageForPicture("/img/ventes/PiecesHeraldSpitfire/",20,$picture); ?>"/></a>
-                                                      <?php } ?>
-						<p>
-                                                    <?php echo $piecesHeraldSpitfire_description; ?>
-                                                </p>
-						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 27 Janvier 2013.</p>
-						</div>
-						<div class="clearit"></div>                                          
+                                        <?php include_once 'classes/Car.php'; ?>                                          
 					<hr/>                                        
                                         <?php
                                             $mercedes230CE = new Car("mercedes230ce_AVD.JPG", "Mercedes 230 CE 1986");
@@ -106,143 +77,6 @@
 						</div>
 						<div class="clearit"></div>                                        
 					<hr/>
-                                        <?php
-                                            $daimlerV8 = new Car("daimlerV8_AV.JPG", "Daimler Super V8");
-                                            $daimlerV8->setOtherPictures(array("daimlerV8_D.JPG", "daimlerV8_G.JPG", "daimlerV8_int.JPG", "daimlerV8_intAR.JPG", "daimlerV8_intAV.JPG"));
-                                        ?>
-                                                <div class="vente-titre">
-                                                    <a rel="daimler_v8" href="<?php echo $daimlerV8->getImage("/img/ventes/DaimlerV8/"); ?>" title="<?php echo $daimlerV8->getLabel(); ?>">
-                                                    <img class="pict" src="<?php echo $daimlerV8->getResizedImage("/img/ventes/DaimlerV8/",78); ?>"/></a>
-                                                    <h2>Daimler Super V8</h2>                                                        
-                                                    <p><?php echo $prix; ?> <strong>16 000&euro;</strong></p>
-                                                    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
-						</div>
-						<div class="vente-col1">
-                                                        <p><?php echo $annee_modele; ?> <strong>1998</strong></p>
-                                                        <p><?php echo $kilometrage; ?> <strong>113 000 KM</strong></p>
-						</div>
-						<div class="vente-col2">
-                                                    <?php
-                                                      foreach ($daimlerV8->getOtherPictures() as $picture) { ?>
-                                                        <a rel="daimler_v8" href="/img/ventes/DaimlerV8/<?php echo $picture; ?>" title="<?php echo $daimlerV8->getLabel(); ?>">
-                                                        <img class="icone" src="<?php echo $daimlerV8->getResizedImageForPicture("/img/ventes/DaimlerV8/",20,$picture); ?>"/></a>
-                                                      <?php } ?>
-						<p>
-                                                    <?php echo $daimlerV8_description; ?>
-                                                </p>
-						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 24 Septembre 2012.</p>
-						</div>
-						<div class="clearit"></div>       
-					<hr/>
-                                        <?php
-                                            $ferrariMondialT = new Car("mondial_extg.JPG", "Ferrari Mondial T");
-                                            $ferrariMondialT->setOtherPictures(array("mondial_int.jpg", "mondial_int2.JPG"));
-                                        ?>
-                                                <div class="vente-titre">
-                                                    <a rel="fmondial" href="<?php echo $ferrariMondialT->getImage("/img/ventes/FerrariMondialT/"); ?>" title="<?php echo $ferrariMondialT->getLabel(); ?>">
-                                                    <img class="pict" src="<?php echo $ferrariMondialT->getResizedImage("/img/ventes/FerrariMondialT/",78); ?>"/></a>
-                                                    <h2>Ferrari Mondial T</h2>                                                        
-                                                    <p><?php echo $prix; ?> <strong>38 000&euro;</strong></p>
-                                                    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
-						</div>
-						<div class="vente-col1">
-                                                        <p><?php echo $annee_modele; ?> <strong>1990</strong></p>
-						</div>
-						<div class="vente-col2">
-                                                    <?php
-                                                      foreach ($ferrariMondialT->getOtherPictures() as $picture) { ?>
-                                                        <a rel="fmondial" href="/img/ventes/FerrariMondialT/<?php echo $picture; ?>" title="<?php echo $daimlerV8->getLabel(); ?>">
-                                                        <img class="icone" src="<?php echo $daimlerV8->getResizedImageForPicture("/img/ventes/FerrariMondialT/",20,$picture); ?>"/></a>
-                                                      <?php } ?>
-						<p>
-                                                    <?php echo $ferrariMondialT_description; ?>
-                                                </p>
-						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 2 Septembre 2012.</p>
-						</div>
-						<div class="clearit"></div>       
-					<hr/>                                        
-                                        <?php
-                                            $xjsLeMans = new Car("jagxjs_ext.JPG", "Jaguar XJS V12 Le Mans");
-                                            $xjsLeMans->setOtherPictures(array("jagxjs_int.JPG", "jagxjs_moteur.JPG", "jagxjs_plaque.JPG"));
-                                        ?>
-                                                <div class="vente-titre">
-                                                    <a rel="xjs_lemans" href="<?php echo $xjsLeMans->getImage("/img/ventes/xjs_LeMans/"); ?>" title="<?php echo $xjsLeMans->getLabel(); ?>">
-                                                    <img class="pict" src="<?php echo $xjsLeMans->getResizedImage("/img/ventes/xjs_LeMans/",78); ?>"/></a>
-                                                    <h2>Jaguar XJS V12 Le Mans</h2>                                                        
-                                                    <p><?php echo $prix; ?> <strong>20 000&euro;</strong></p>
-                                                    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
-						</div>
-						<div class="vente-col1">
-                                                        <p><?php echo $annee_modele; ?> <strong>1991</strong></p>
-                                                        <p><?php echo $kilometrage; ?> <strong>88 000 KM</strong></p>
-						</div>
-						<div class="vente-col2">
-                                                    <?php
-                                                      foreach ($xjsLeMans->getOtherPictures() as $picture) { ?>
-                                                        <a rel="xjs_lemans" href="/img/ventes/xjs_LeMans/<?php echo $picture; ?>" title="<?php echo $xjsLeMans->getLabel(); ?>">
-                                                        <img class="icone" src="<?php echo $xjsLeMans->getResizedImageForPicture("/img/ventes/xjs_LeMans/",20,$picture); ?>"/></a>
-                                                      <?php } ?>
-						<p>
-                                                    <?php echo $xjsLeMans_description; ?>
-                                                </p>
-						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 2 Septembre 2012.</p>
-						</div>
-						<div class="clearit"></div>                                        
-                                        <hr/>   
-                                        <?php
-                                            $tr5 = new Car("TR5_left.JPG", "Triumph TR5 1968");
-                                            $tr5->setOtherPictures(array("TR5_arriere.jpg", "TR5_ciel.JPG", "TR5_droite.jpg", "TR5_interieur.jpg", "TR5_moteur.jpg", "TR5_portiere.JPG"));
-                                        ?>
-                                                <div class="vente-titre">
-                                                    <a rel="tr5" href="<?php echo $tr5->getImage("/img/ventes/TR5_1968/"); ?>" title="<?php echo $tr5->getLabel(); ?>">
-                                                    <img class="pict" src="<?php echo $tr5->getResizedImage("/img/ventes/TR5_1968/",78); ?>"/></a>
-                                                    <h2>Triumph TR5 1968</h2>                                                        
-                                                    <p><?php echo $prix; ?> <strong>36 000&euro;</strong></p>
-                                                    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
-						</div>
-						<div class="vente-col1">
-                                                        <p><?php echo $annee_modele; ?> <strong>1968</strong></p>
-						</div>
-						<div class="vente-col2">
-                                                    <?php
-                                                      foreach ($tr5->getOtherPictures() as $picture) { ?>
-                                                        <a rel="tr5" href="/img/ventes/TR5_1968/<?php echo $picture; ?>" title="<?php echo $tr5->getLabel(); ?>">
-                                                        <img class="icone" src="<?php echo $tr5->getResizedImageForPicture("/img/ventes/TR5_1968/",20,$picture); ?>"/></a>
-                                                      <?php } ?>
-						<p>
-                                                    <?php echo $tr5_description; ?>
-                                                </p>
-						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 25 Mars 2012.</p>
-						</div>
-						<div class="clearit"></div>       
-					<hr/>
-                                        <?php
-                                            $corvette = new Car("Corvette_AVD.jpg", "Chevrolet Corvette 1958");
-                                            $corvette->setOtherPictures(array("Corvette_avant.jpg", "Corvette_droite.JPG", "Corvette_gauche.JPG"));
-                                        ?>
-                                                <div class="vente-titre">
-                                                    <a rel="corvette" href="<?php echo $corvette->getImage("/img/ventes/Corvette_1958/"); ?>" title="<?php echo $corvette->getLabel(); ?>">
-                                                    <img class="pict" src="<?php echo $corvette->getResizedImage("/img/ventes/Corvette_1958/",78); ?>"/></a>
-                                                    <h2>Chevrolet Corvette 1958</h2>                                                        
-                                                    <p><?php echo $prix; ?> <strong>59 000&euro;</strong></p>
-                                                    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
-						</div>
-						<div class="vente-col1">
-                                                        <p><?php echo $annee_modele; ?> <strong>1958</strong></p>
-						</div>
-						<div class="vente-col2">
-                                                    <?php
-                                                      foreach ($corvette->getOtherPictures() as $picture) { ?>
-                                                        <a rel="corvette" href="/img/ventes/Corvette_1958/<?php echo $picture; ?>" title="<?php echo $corvette->getLabel(); ?>">
-                                                        <img class="icone" src="<?php echo $corvette->getResizedImageForPicture("/img/ventes/Corvette_1958/",20,$picture); ?>"/></a>
-                                                      <?php } ?>
-						<p>
-                                                    <?php echo $corvette_description; ?>
-                                                </p>
-						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 25 Mars 2012.</p>
-						</div>
-						<div class="clearit"></div>       
-					<hr/>                                        
                                         <?php
                                             $xk120Roadster = new Car("xk120_roadster.jpg", "Jaguar XK 120 Roadster");
                                             $xk120Roadster->setOtherPictures(array("jaguarXK120_3.JPG", "jaguarXK120_2.JPG", "xk120_roadster_int.jpg"));
@@ -304,7 +138,36 @@
 						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 30 Juin 2011.</p>
 						<!--a class="plus" href="javascript:OuvrirPopup('popup.html', '', 'resizable=no, location=no, width=260, height=300, menubar=no, status=no, scrollbars=no, menubar=no','top=200,left=200')">D&eacute;tails >></a-->
 						</div>
-						<div class="clearit"></div>                                        
+						<div class="clearit"></div>
+					<hr/>                                        
+                                        <?php
+                                        $pieces = array();
+                                        for ($index = 1; $index < 25; $index++) {
+                                            $pieces[] = "piecesHeraldSpitfire$index.jpg";
+                                        }
+                                            $piecesHeraldSpitfire = new Car("piecesHeraldSpitfire1.jpg", "Pièces Herald/ Spitfire");
+                                            $piecesHeraldSpitfire->setOtherPictures($pieces);
+                                        ?>
+                                                <div class="vente-titre">
+                                                    <a rel="pieces_herald_spitfire" href="<?php echo $piecesHeraldSpitfire->getImage("/img/ventes/PiecesHeraldSpitfire/"); ?>" title="<?php echo $piecesHeraldSpitfire->getLabel(); ?>">
+                                                    <img class="pict" src="<?php echo $piecesHeraldSpitfire->getResizedImage("/img/ventes/PiecesHeraldSpitfire/",78); ?>"/></a>
+                                                    <h2>Pièces Herald/ Spitfire</h2>                                                        
+                                                    <p><?php echo $prix; ?> <strong>1 200&euro;</strong></p>
+						</div>
+						<div class="vente-col1">
+						</div>
+						<div class="vente-col2">
+                                                    <?php
+                                                      foreach ($piecesHeraldSpitfire->getOtherPictures() as $picture) { ?>
+                                                        <a rel="pieces_herald_spitfire" href="/img/ventes/PiecesHeraldSpitfire/<?php echo $picture; ?>" title="<?php echo $piecesHeraldSpitfire->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $piecesHeraldSpitfire->getResizedImageForPicture("/img/ventes/PiecesHeraldSpitfire/",20,$picture); ?>"/></a>
+                                                      <?php } ?>
+						<p>
+                                                    <?php echo $piecesHeraldSpitfire_description; ?>
+                                                </p>
+						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 27 Janvier 2013.</p>
+						</div>
+						<div class="clearit"></div>                                                
 					<hr/>
                                         <?php
                                             $triumph_herald = new Car("triumph_herald_2.jpg", "Triumph Herald 13/60 Cabriolet 1969");
@@ -392,68 +255,7 @@
 						</p>
 						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 8 Mai 2011.</p>
 						</div>
-						<div class="clearit"></div>
-					<hr/>                                        
-						<div class="vente-titre">
-							<a rel="dynolite_apg_30" href="/img/ventes/dynolite_apg30.jpg" title="Dynolite APG 30">
-							<img class="pict" src="/img/ventes/dynolite_apg30_s.jpg" alt="" /></a>
-							<h2>Dynolite APG 30</h2>
-							<p>Gamme <strong>"APG" 1950 - 1975</strong></p>
-							<p>(Multigrade D&eacute;tergente & Dispersante)</p>
-						</div>
-						<div class="vente-col1">
-							<p>Multigrade <strong>25w/70</strong></p>
-							<p><?php echo $prix; ?> <strong>7.15&euro; / litre</strong></p>
-						</div>
-						<div class="vente-col2">
-							<a rel="dynolite_apg_30" href="/img/ventes/dynolite_apg30_img.jpg" title="Dynolite APG 30">
-							<img class="icone" src="/img/ventes/dynolite_apg30_img_s.jpg" alt="" /></a>
-						<p>
-                                                    <?php echo $dynolite_apg_30_desc; ?>
-						</p>
-						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 4 Mars 2011.</p>
-						</div>
-						<div class="clearit"></div>
-					<hr/>
-						<div class="vente-titre">
-							<a rel="dynolite_hypoid" href="/img/ventes/dynolite_hypoid.jpg" title="Dynolite Hypo&iuml;d 85W/140">
-							<img class="pict" src="/img/ventes/dynolite_hypoid_s.jpg" alt="" /></a>
-							<h2>Dynolite Hypo&iuml;d 85W/140</h2>
-							<p>Gamme <strong>TRANSMISSION</strong></p>
-						</div>
-						<div class="vente-col1">
-							<p><?php echo $prix; ?> <strong>7.15&euro; / litre</strong></p>
-						</div>
-						<div class="vente-col2">
-							<a rel="dynolite_hypoid" href="/img/ventes/dynolite_hypoid_img.jpg" title="Dynolite Hypo&iuml;d 85W/140">
-							<img class="icone" src="/img/ventes/dynolite_hypoid_img_s.jpg" alt="" /></a>
-						<p>
-                                                    <?php echo $dynolite_hypoid_desc; ?>
-						</p>
-						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 4 Mars 2011.</p>
-						</div>
-						<div class="clearit"></div>
-					<hr/>
-						<div class="vente-titre">
-							<a rel="dynolite_gearoil_40" href="/img/ventes/dynolite_gearoil40.jpg" title="Dynolite GearOil 40">
-							<img class="pict" src="/img/ventes/dynolite_gearoil40_s.jpg" alt="" /></a>
-							<h2>Dynolite GearOil 40</h2>
-							<p>Gamme <strong>TRANSMISSION</strong></p>
-							<p><strong>Huile de boîte</strong></p>
-						</div>
-						<div class="vente-col1">
-							<p>Multigrade <strong>25w/70</strong></p>
-							<p><?php echo $prix; ?> <strong>7.15&euro; / litre</strong></p>
-						</div>
-						<div class="vente-col2">
-							<a rel="dynolite_gearoil_40" href="/img/ventes/dynolite_gearoil40_img.jpg" title="Dynolite GearOil 40">
-							<img class="icone" src="/img/ventes/dynolite_gearoil40_img_s.jpg" alt="" /></a>
-						<p>
-                                                    <?php echo $dynolite_gearoil_40_desc; ?>
-						</p>
-						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 4 Mars 2011.</p>
-						</div>
-						<div class="clearit"></div>
+						<div class="clearit"></div>                                                
 				</div>
 			</div>
 			<div class="achats">

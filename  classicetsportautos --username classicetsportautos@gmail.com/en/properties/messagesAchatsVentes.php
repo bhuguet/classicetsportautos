@@ -18,31 +18,10 @@ $vendue="SOLD";
 
 $piecesHeraldSpitfire_description="Triumph Herald / Spitfire parts. Open for sale as a lot or by part. </br>Rebuilt Spitfire Mark 3 engine. </br>€1200. Price open to negociation.";
 $mercedes230CE_description="Beautiful burgundy Mercedes 230CE. Works very well,</br>silent. New tires.</br>No corrosion";
-$daimlerV8_description="Long frame</br>
-Harman Kardon chain + TO + Picnic Table</br>
-Rear seat heating</br>
-Complete history + maintenance booklet</br>
-Maintenance workshop done in Lyon by \"Atelier auto\"</br>
-New rear tires and batteries";
-$ferrariMondialT_description="2+2 Cabriolet </br>
-Engine: V8 3400, 320 CH</br>
-Leather interior, Active suspension, Air conditioning";
-$xjsLeMans_description="Amazing car </br>
-Car number 031 (limited edition to 250 cars)</br>
-Racing green color</br>
-First hand</br>
-</br>
-Equipment: </br>
-   Koni sport</br>
-   Drive hardened</br>
-   Watt's parallelogram</br>
-   Uprated silent blocks all around";
 $triumphHerald_description="Triumph Herald 1360 roadster, very good condition.</br>
                             The pleasure of a 4 seats roadster.</br>
                             Many maintenance bills since 1989.";
 $frogeye_description="Beautiful 1960 Austin Healey Frogeye fully restored (Desurmont origin), front brake disks.";
-$tr5_description="Very nice 1968 Triumph TR5 PI, completely restored in 1995.";
-$corvette_description="Great 1958 Chevrolet Corvette de 1958. Runs very well. Rebuilt differential.";
 $xk120Roadster_description_1="Very nice 1953 Jaguar XK 120 roadster, original RHD, red with nice dual tone seats.";
 $xk120Roadster_description_2="A few discrete improvements bringing more comfort, electric cooling fan, hydraulic clutch, rear telescopic dampers.";
 $daimler_description_1="Nice 1980 4.2l Daimler Sovereign. 93000km on the odometer, current owner having bought the car in 1994 with 48303km on the odometer.";
@@ -52,9 +31,6 @@ $sl190_description="1961 Mercedes 190SL roadster, red leather interior, hardtop,
                     Nice paint with few chips.
                     Reliable engine, very good oil pressure.
                     Mohair hood as new. ";
-$dynolite_apg_30_desc="Mineral Multigrade 20w/60 oil replacing SAE30 oil and multigrade 20W/60. It is specially formulated for high performance engines in Porsche, Jaguar, Triumph, Ferrari, Alfa, MG, ...";
-$dynolite_hypoid_desc="This oil replaces EP90 grade oil and exceeds GL5 norm. It is used in most post 1960 hypoid differentials.";
-$dynolite_gearoil_40_desc="This oil is used in gearboxes in replacement of SAE 40 and EP90. It is compatible with straight cut gears gearboxes, synchronous and hypocycloidal gears as in overdrives. It does not contain any EP additive which could damage bronze, copper or brass. This oil does not contain antifriction additives with molecular surface effects inducing slippage in overdrives and preselection gearboxes (Cotal, Wilson).";
 
 $cherche_tr3="Looking for Triumph TR3 or MGA to restore.
              Maximum price: 10000€;

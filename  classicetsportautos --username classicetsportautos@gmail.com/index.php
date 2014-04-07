@@ -29,9 +29,9 @@
                             <div class="espacepromo">
 
 				<ul class="slideshow">
-                                    <li class="show"><a href="#"><img src="../img/panoramaNewYear2012_2.jpg" width="858" height="250" title="<?php echo $img_title_panorama_new_year_2012; ?>" alt=""/></a></li>
-                                    <li><a href="#"><img src="../img/PanoramaCSAanniv_1.jpg" width="858" height="250" title="<?php echo $img_title_panorama_first_birthday; ?>" alt=""/></a></li>
-                                    <li><a href="#"><img src="../img/bandeauDevantGarage.jpg" width="858" height="250" title="" alt=""/></a></li>
+                                    <li class="show"><a href="#"><img src="../img/slideShowTop/slide1.jpg" width="858" height="250" title="<?php echo $img_title_panorama_slide1; ?>" alt=""/></a></li>
+                                    <li><a href="#"><img src="../img/slideShowTop/slide2.jpg" width="858" height="250" title="<?php echo $img_title_panorama_slide2; ?>" alt=""/></a></li>
+                                    <!--li><a href="#"><img src="../img/slideShowTop/bandeauDevantGarage.jpg" width="858" height="250" title="" alt=""/></a></li-->
 				</ul>
 
 				</div>

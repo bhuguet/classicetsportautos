@@ -26,7 +26,7 @@ function slideShow(speed) {
 	$('#slideshow-caption p').html($('ul.slideshow a:first').find('img').attr('alt'));
 
 	//Display the caption
-	$('#slideshow-caption').css({opacity: 0.7, bottom:0});
+//	$('#slideshow-caption').css({opacity: 0.7, bottom:0});
 
 	//Call the gallery function to run the slideshow
 	var timer = setInterval('gallery()',speed);
