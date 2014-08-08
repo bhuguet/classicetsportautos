@@ -32,6 +32,10 @@ $sl190_description="1961 Mercedes 190SL roadster, red leather interior, hardtop,
                     Reliable engine, very good oil pressure.
                     Mohair hood as new. ";
 
+$mga_mk1_1960_description_1="MGA 1600 MK1 restaurée, chassis, carrosserie réparés et traités, peinture.</br> Dossier photo détaillé.";
+$mga_mk1_1960_description_2="Radiateur, réservoir essence neufs, systeme freinage complet, electricité, etanchéité moteur, boite, pont, carburateurs, suspensions refaits. Pneus neufs.
+</br>Ventilateur moteur électrique additionnel, coupe-circuit.";
+
 $cherche_tr3="Looking for Triumph TR3 or MGA to restore.
              Maximum price: 10000€;
              Any region.";

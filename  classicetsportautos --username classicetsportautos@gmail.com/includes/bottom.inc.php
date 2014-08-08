@@ -1,7 +1,7 @@
 <div class="car"></div>
 <div class="pieddepage">
     <div class="col560">
-        <h2><?php echo $evenements_title; ?></h2>
+        <h2><?php if (isset($evenements_title)) echo $evenements_title; ?></h2>
         <p>
             <?php if (isset($evenements_1)) echo '<li>'.$evenements_1.'</li>'; ?>
             <?php if (isset($evenements_2)) echo '<li>'.$evenements_2.'</li>'; ?>

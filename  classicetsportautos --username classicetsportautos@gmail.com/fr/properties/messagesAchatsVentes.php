@@ -36,6 +36,10 @@ $sl190_description="Mercedes 190SL cabriolet blanche, intérieur cuir rouge, ave
                     Bel intérieur en cuir rouge.
                     Capote alpaga comme neuve. ";
 
+$mga_mk1_1960_description_1="MGA 1600 MK1 restaurée, chassis, carrosserie réparés et traités, peinture.</br> Dossier photo détaillé.";
+$mga_mk1_1960_description_2="Radiateur, réservoir essence neufs, systeme freinage complet, electricité, etanchéité moteur, boite, pont, carburateurs, suspensions refaits. Pneus neufs.
+</br>Ventilateur moteur électrique additionnel, coupe-circuit.";
+
 $cherche_tr3="Cherche Triumph TR3 à rénover.
              Prix maximum: 7000€;
              Etat épave accepté.
