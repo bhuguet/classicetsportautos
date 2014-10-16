@@ -8,7 +8,7 @@
 <script type="text/javascript">
     $(document).ready(function() {
         <?php
-        $itemsToSell = array('pieces_herald_spitfire', 'mercedes230ce', 'triumph_herald','frogeye', 'xk120', 'daimler', '190sl', 'mga_mk1_1960');
+        $itemsToSell = array('pieces_herald_spitfire', 'mercedes230ce', 'triumph_herald','frogeye', 'xk120', 'daimler', '190sl', 'mga_mk1_1960', 'fiat500', 'tr3A');
         foreach ($itemsToSell as $item) {
         ?>
                     $("a[rel=<?php echo $item; ?>]").fancybox({

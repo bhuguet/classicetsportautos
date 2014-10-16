@@ -36,6 +36,13 @@ $mga_mk1_1960_description_1="MGA 1600 MK1 restaurée, chassis, carrosserie répa
 $mga_mk1_1960_description_2="Radiateur, réservoir essence neufs, systeme freinage complet, electricité, etanchéité moteur, boite, pont, carburateurs, suspensions refaits. Pneus neufs.
 </br>Ventilateur moteur électrique additionnel, coupe-circuit.";
 
+$fiat_500l_description="Magnifique Fiat 500L restaurée, Rouge intérieur blanc . Etat impeccable.</br>
+Pneus neufs Pirelli Cinturato";
+
+$tr3_a_description="Belle TR3A rouge d'origine américaine. 3500km depuis changement moteur.</br>
+Nombreux travaux et améliorations : direction refaite, ventilateur électrique, capote neuve, roues refaites, pneus récents.</br>
+Toutes factures disponibles depuis arrivée de San Diego.";
+
 $cherche_tr3="Looking for Triumph TR3 or MGA to restore.
              Maximum price: 10000€;
              Any region.";

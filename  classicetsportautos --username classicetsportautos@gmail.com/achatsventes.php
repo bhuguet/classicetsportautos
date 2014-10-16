@@ -46,7 +46,65 @@
 				<div class="col560">
 					<h1><?php echo $vente_title; ?></h1>
                                         <?php include_once 'classes/Car.php'; ?>                                          
-					<hr/>             
+					<hr/>    
+                                        <?php
+                                            $tr3A = new Car("tr3A_avg.JPG", "Triumph TR3 A");
+                                            $tr3A->setOtherPictures(array("tr3A_ard.JPG", "tr3A_arg.JPG", "tr3A_moteur.JPG", "tr3A_intd.JPG", "tr3A_intg.JPG"));
+                                        ?>
+                                                <div class="vente-titre">
+                                                    <a rel="tr3A" href="<?php echo $tr3A->getImage("/img/ventes/tr3A/"); ?>" title="<?php echo $tr3A->getLabel(); ?>">
+                                                    <img class="pict" src="<?php echo $tr3A->getResizedImage("/img/ventes/tr3A/",78); ?>"/></a>
+                                                    <h2>Triumph TR3 A</h2>                                                        
+                                                    <p><?php echo $prix; ?> <strong>29 000&euro;</strong></p>
+                                                    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
+						</div>
+						<div class="vente-col1">
+                                                        <p><?php echo $annee_modele; ?> <strong>1960 ou avant</strong></p>
+                                                        <p><?php echo $kilometrage; ?> <strong>8 200 KM</strong></p>
+						</div>
+						<div class="vente-col2">
+                                                    <?php
+                                                      foreach ($tr3A->getOtherPictures() as $picture) { ?>
+                                                        <a rel="tr3A" href="/img/ventes/tr3A/<?php echo $picture; ?>" title="<?php echo $tr3A->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $tr3A->getResizedImageForPicture("/img/ventes/tr3A/",20,$picture); ?>"/></a>
+                                                      <?php } ?>
+						<p>
+                                                    <?php echo $tr3_a_description; ?>
+                                                </p>
+						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 16 Octobre 2014.</p>
+						<!--a class="plus" href="javascript:OuvrirPopup('popup.html', '', 'resizable=no, location=no, width=260, height=300, menubar=no, status=no, scrollbars=no, menubar=no','top=200,left=200')">D&eacute;tails >></a-->
+                                                </div>
+						<div class="clearit"></div>       
+					<hr/>                                         
+                                        <?php
+                                            $fiat500 = new Car("fiat500_avg.JPG", "Fiat 500L");
+                                            $fiat500->setOtherPictures(array("fiat500_ard.JPG", "fiat500_moteur.JPG", "fiat500_intf.JPG", "fiat500_intb.JPG"));
+                                        ?>
+                                                <div class="vente-titre">
+                                                    <a rel="fiat500" href="<?php echo $fiat500->getImage("/img/ventes/fiat500/"); ?>" title="<?php echo $fiat500->getLabel(); ?>">
+                                                    <img class="pict" src="<?php echo $fiat500->getResizedImage("/img/ventes/fiat500/",78); ?>"/></a>
+                                                    <h2>Fiat 500L</h2>                                                        
+                                                    <p><?php echo $prix; ?> <strong>8 500&euro;</strong></p>
+                                                    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
+						</div>
+						<div class="vente-col1">
+                                                        <p><?php echo $annee_modele; ?> <strong>1969</strong></p>
+                                                        <p><?php echo $kilometrage; ?> <strong>71 000 KM</strong></p>
+						</div>
+						<div class="vente-col2">
+                                                    <?php
+                                                      foreach ($fiat500->getOtherPictures() as $picture) { ?>
+                                                        <a rel="fiat500" href="/img/ventes/fiat500/<?php echo $picture; ?>" title="<?php echo $fiat500->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $fiat500->getResizedImageForPicture("/img/ventes/fiat500/",20,$picture); ?>"/></a>
+                                                      <?php } ?>
+						<p>
+                                                    <?php echo $fiat_500l_description; ?>
+                                                </p>
+						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 16 Octobre 2014.</p>
+						<!--a class="plus" href="javascript:OuvrirPopup('popup.html', '', 'resizable=no, location=no, width=260, height=300, menubar=no, status=no, scrollbars=no, menubar=no','top=200,left=200')">D&eacute;tails >></a-->
+						</div>
+						<div class="clearit"></div>       
+					<hr/>                                        
                                         <?php
                                             $mga = new Car("mga_AVD.JPG", "MG MGA 1600 mk1 1960");
                                             $mga->setOtherPictures(array("mga_interior.JPG", "mga_moteur.JPG", "mga_ARG.JPG", "mga_AVG.JPG"));
@@ -55,7 +113,7 @@
                                                     <a rel="mga_mk1_1960" href="<?php echo $mga->getImage("/img/ventes/Mga_mk1_1960/"); ?>" title="<?php echo $mga->getLabel(); ?>">
                                                     <img class="pict" src="<?php echo $mga->getResizedImage("/img/ventes/Mga_mk1_1960/",78); ?>"/></a>
                                                     <h2>MG MGA 1600 mk1 1960</h2>                                                        
-                                                    <p><?php echo $prix; ?> <strong>35 000&euro;</strong></p>
+                                                    <p><?php echo $prix; ?> <strong>33 500&euro;</strong></p>
                                                     <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
 						</div>
 						<div class="vente-col1">
@@ -151,7 +209,7 @@
                                                 <div class="vente-titre">
                                                     <a rel="mercedes230ce" href="<?php echo $mercedes230CE->getImage("/img/ventes/Mercedes_230CE/"); ?>" title="<?php echo $mercedes230CE->getLabel(); ?>">
                                                     <img class="pict" src="<?php echo $mercedes230CE->getResizedImage("/img/ventes/Mercedes_230CE/",78); ?>"/></a>
-                                                    <h2>Mercedes 230 CE</h2>                                                        
+                                                    <h2>Mercedes 230 CE <span style="padding-left: 15px; color:red; font-weight:bold;"><?php echo $vendue; ?></span></h2>                                                        
                                                     <p><?php echo $prix; ?> <strong>3 900&euro;</strong></p>
                                                     <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
 						</div>
