@@ -113,7 +113,7 @@
                                                     <a rel="mga_mk1_1960" href="<?php echo $mga->getImage("/img/ventes/Mga_mk1_1960/"); ?>" title="<?php echo $mga->getLabel(); ?>">
                                                     <img class="pict" src="<?php echo $mga->getResizedImage("/img/ventes/Mga_mk1_1960/",78); ?>"/></a>
                                                     <h2>MG MGA 1600 mk1 1960</h2>                                                        
-                                                    <p><?php echo $prix; ?> <strong>33 500&euro;</strong></p>
+                                                    <p><?php echo $prix; ?> <strong>35 000&euro;</strong></p>
                                                     <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
 						</div>
 						<div class="vente-col1">
