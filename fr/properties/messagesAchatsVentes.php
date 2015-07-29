@@ -13,6 +13,7 @@ $prix="Prix:";
 $ville="Ville:";
 $annee_modele="Année-modèle:";
 $date_publication="Publié le";
+$date_miseajour="Mis à jour le";
 $kilometrage="Kilométrage:";
 $vendue="VENDUE";
 
