@@ -74,7 +74,7 @@
                                                 <p>
                                                     <?php echo $mga_mk1_1960_description_2; ?>
                                                 </p>
-                        <p style="font-size:x-small; font-style:italic;"><?php echo $date_miseajour; ?> 28 Mars 2016.</p>
+                        <p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 28 Mars 2016.</p>
                         <!--a class="plus" href="javascript:OuvrirPopup('popup.html', '', 'resizable=no, location=no, width=260, height=300, menubar=no, status=no, scrollbars=no, menubar=no','top=200,left=200')">D&eacute;tails >></a-->
                                                 </div>
                         <div class="clearit"></div>       
