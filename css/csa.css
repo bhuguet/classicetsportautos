@@ -166,6 +166,11 @@ img.icone{
 	margin:0px 10px 10px 0;
 }
 
+.closed{
+	color:red;
+        font-size:larger;	
+}
+
 .plus{
 	float:right;
 	margin-top:10px;
