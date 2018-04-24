@@ -45,39 +45,7 @@
 				<br/><br/>
 				<div class="col560">
 					<h1><?php echo $vente_title; ?></h1>
-                                        <?php include_once 'classes/Car.php'; ?>                                          
-					<hr/>    
-                                        <?php
-                                            $mga = new Car("mga_AVD.JPG", "MG MGA 1600 mk1 1960");
-                                            $mga->setOtherPictures(array("mga_interior.JPG", "mga_moteur.JPG", "mga_ARG.JPG", "mga_AVG.JPG"));
-                                        ?>
-                                                <div class="vente-titre">
-                                                    <a rel="mga_mk1_1960" href="<?php echo $mga->getImage("/img/ventes/Mga_mk1_1960/"); ?>" title="<?php echo $mga->getLabel(); ?>">
-                                                    <img class="pict" src="<?php echo $mga->getResizedImage("/img/ventes/Mga_mk1_1960/",78); ?>"/></a>
-                                                    <h2>MG MGA 1600 mk1 1960</h2>
-                                                    <p><?php echo $prix; ?> <strong>34 600&euro;</strong></p>
-                                                    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
-                        </div>
-                        <div class="vente-col1">
-                                                        <p><?php echo $annee_modele; ?> <strong>1960</strong></p>
-                                                        <p><?php echo $kilometrage; ?> <strong>91 000 KM</strong></p>
-                        </div>
-                        <div class="vente-col2">
-                                                    <?php
-                                                      foreach ($mga->getOtherPictures() as $picture) { ?>
-                                                        <a rel="mga_mk1_1960" href="/img/ventes/Mga_mk1_1960/<?php echo $picture; ?>" title="<?php echo $mga->getLabel(); ?>">
-                                                        <img class="icone" src="<?php echo $mga->getResizedImageForPicture("/img/ventes/Mga_mk1_1960/",20,$picture); ?>"/></a>
-                                                      <?php } ?>
-                        <p>
-                                                    <?php echo $mga_mk1_1960_description_1; ?>
-                                                </p>
-                                                <p>
-                                                    <?php echo $mga_mk1_1960_description_2; ?>
-                                                </p>
-                        <p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 28 Mars 2016.</p>
-                        <!--a class="plus" href="javascript:OuvrirPopup('popup.html', '', 'resizable=no, location=no, width=260, height=300, menubar=no, status=no, scrollbars=no, menubar=no','top=200,left=200')">D&eacute;tails >></a-->
-                                                </div>
-                        <div class="clearit"></div>       
+                                        <?php include_once 'classes/Car.php'; ?>                                                 
                     <hr/> 
                                         <?php
                                             $tr3A = new Car("tr3A_avg.JPG", "Triumph TR3 A");
@@ -166,7 +134,39 @@
 						<p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 5 Juillet 2011.</p>
 						<!--a class="plus" href="javascript:OuvrirPopup('popup.html', '', 'resizable=no, location=no, width=260, height=300, menubar=no, status=no, scrollbars=no, menubar=no','top=200,left=200')">D&eacute;tails >></a-->
 						</div>
-						<div class="clearit"></div>       
+						<div class="clearit"></div>   
+                    <hr/>    
+                                        <?php
+                                            $mga = new Car("mga_AVD.JPG", "MG MGA 1600 mk1 1960");
+                                            $mga->setOtherPictures(array("mga_interior.JPG", "mga_moteur.JPG", "mga_ARG.JPG", "mga_AVG.JPG"));
+                                        ?>
+                                                <div class="vente-titre">
+                                                    <a rel="mga_mk1_1960" href="<?php echo $mga->getImage("/img/ventes/Mga_mk1_1960/"); ?>" title="<?php echo $mga->getLabel(); ?>">
+                                                    <img class="pict" src="<?php echo $mga->getResizedImage("/img/ventes/Mga_mk1_1960/",78); ?>"/></a>
+                                                    <h2>MG MGA 1600 mk1 1960 <span style="padding-left: 5px; color:red; font-weight:bold;"><?php echo $vendue; ?></span></h2>
+                                                    <p><?php echo $prix; ?> <strong>34 600&euro;</strong></p>
+                                                    <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
+                        </div>
+                        <div class="vente-col1">
+                                                        <p><?php echo $annee_modele; ?> <strong>1960</strong></p>
+                                                        <p><?php echo $kilometrage; ?> <strong>91 000 KM</strong></p>
+                        </div>
+                        <div class="vente-col2">
+                                                    <?php
+                                                      foreach ($mga->getOtherPictures() as $picture) { ?>
+                                                        <a rel="mga_mk1_1960" href="/img/ventes/Mga_mk1_1960/<?php echo $picture; ?>" title="<?php echo $mga->getLabel(); ?>">
+                                                        <img class="icone" src="<?php echo $mga->getResizedImageForPicture("/img/ventes/Mga_mk1_1960/",20,$picture); ?>"/></a>
+                                                      <?php } ?>
+                        <p>
+                                                    <?php echo $mga_mk1_1960_description_1; ?>
+                                                </p>
+                                                <p>
+                                                    <?php echo $mga_mk1_1960_description_2; ?>
+                                                </p>
+                        <p style="font-size:x-small; font-style:italic;"><?php echo $date_publication; ?> 28 Mars 2016.</p>
+                        <!--a class="plus" href="javascript:OuvrirPopup('popup.html', '', 'resizable=no, location=no, width=260, height=300, menubar=no, status=no, scrollbars=no, menubar=no','top=200,left=200')">D&eacute;tails >></a-->
+                                                </div>
+                        <div class="clearit"></div>    
 					<hr/>
                                         <?php
                                             $daimler = new Car("daimler1.JPG", "Daimler Sovereign");
@@ -175,7 +175,7 @@
                                                 <div class="vente-titre">
                                                     <a rel="daimler" href="<?php echo $daimler->getImage("/img/ventes/daimler/"); ?>" title="<?php echo $daimler->getLabel(); ?>">
                                                     <img class="pict" src="<?php echo $daimler->getResizedImage("/img/ventes/daimler/",78); ?>"/></a>                                                    
-                                                    <h2>Daimler Sovereign 4,2l</h2>                                                        
+                                                    <h2>Daimler Sovereign 4,2l <span style="padding-left: 15px; color:red; font-weight:bold;"><?php echo $vendue; ?></span></h2>                                                        
                                                     <p><?php echo $prix; ?> <strong>6 500&euro;</strong></p>
                                                     <p><?php echo $ville; ?> <strong>38400 Saint Martin d'Hères</strong></p>
 						</div>
