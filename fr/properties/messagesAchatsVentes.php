@@ -5,7 +5,7 @@ $achats_ventes_keywords="vente, achat, ancienne, annonce";
 $achats_ventes_title="Classic & Sport Autos - Annonces pour l'Achat ou la Vente de voitures anciennes";
 
 $annonces_title="Annonces";
-$annonces_description="Vous recherchez une voiture ancienne ou désirez vendre la votre ? Ecrivez à <a href='mailto:contact@classicetsportautos.fr'>contact@classicetsportautos.fr</a> ou appelez le +33(0)4.57.93.38.57.";
+$annonces_description="";
 
 $vente_title="Vente";
 $achat_title="Achat";

@@ -9,12 +9,12 @@
 #$evenements_9="<a href='http://peterauto.peter.fr/fr/evenement/presentation/id/40/evenement/Grand+Prix+de+l'Age+d'Or'>Grand Prix de l'Age d'Or</a> - Dijon-Prenois du 6 au 8 Juin 2014";
 #$evenements_10="<a href='http://www.lemansclassic.com/fr/'>Le Mans Classic</a> - Grand Circuit du Mans, du 4 au 6 Juillet 2014";
 
-$horaires_ouverture_title="Opening hours";
-$horaires_ouverture_jours="Monday through Friday";
-$horaires_ouverture_matin="from 9am to 12h00pm";
-$horaires_ouverture_apreme="and from 2pm to 6h30pm";
+$horaires_ouverture_title="";
+$horaires_ouverture_jours="";
+$horaires_ouverture_matin="";
+$horaires_ouverture_apreme="";
 
 $adresse_ligne_1="<b>Classic & Sport Autos</b> - 10 rue du Pré Blanchet - 38400 Saint-Martin-d'Hères - France";
-$adresse_ligne_2="Telephone +33 (0)4.57.93.38.57 - Fax +33 (0)9.55.68.12.65 - <a href='mailto:contact@classicetsportautos.fr'>contact@classicetsportautos.fr</a>";
-$adresse_ligne_3="Copyright ©2013 Classic & Sport Autos, reserved rights.";
+$adresse_ligne_2="<a href='mailto:contact@classicetsportautos.fr'>contact@classicetsportautos.fr</a>";
+$adresse_ligne_3="Copyright ©2020 Classic & Sport Autos, reserved rights.";
 $adresse_ligne_4="Company registration number, siren : 527 671 515";

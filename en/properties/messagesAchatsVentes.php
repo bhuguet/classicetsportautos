@@ -5,7 +5,7 @@ $achats_ventes_keywords="Sell, Buy, classic, advert";
 $achats_ventes_title="Classic & Sport Autos – Classic cars sell or buy adverts";
 
 $annonces_title="Adverts";
-$annonces_description="You are looking for a classic car or you would like to sell yours, write to <a href='mailto:contact@classicetsportautos.fr'>contact@classicetsportautos.fr</a> or call +33(0)4.57.93.38.57.";
+$annonces_description="";
 
 $vente_title="Sell";
 $achat_title="Buy";

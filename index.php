@@ -37,7 +37,7 @@
 			</div>
 
 			<div class="col260">
-				<p class="closed">Le garage Classic et Sport Autos est fermé. Vous pouvez contacter l' Atelier des Classics au 15 rue Jean Moulin, 38180 Seyssins<br/> Tel: 04.57.93.38.57</p>
+				<p class="closed">Le garage Classic et Sport Autos est fermé.
                                 <br/><br/>
 
 				<p><?php echo $adresse_nom; ?></p>

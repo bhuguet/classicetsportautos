@@ -9,7 +9,7 @@ $agrandir_le_plan="Agrandir le plan";
 
 $contact_title="Contact";
 $contact_email="<b>email</b> : contact@classicetsportautos.fr";
-$contact_phone="<b>Tél</b> : +33 (0)4.57.93.38.57";
+$contact_phone="";
 
 $adresse_title="Adresse";
 $adresse_nom="Classic et Sport Autos";
